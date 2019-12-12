@@ -1,0 +1,353 @@
+/*Results page*/
+
+
+/*getting rid of the header*/
+
+#c6dg1-headerContainer{
+   width:0;
+    height:0;
+    visibility: hidden; 
+}
+
+
+
+#ARdf-dialog-viewport{
+    visibility: hidden;
+    
+}
+
+.modalBackground{
+    visibility: hidden;
+    
+}
+
+.Common-Widgets-Dialog-Dialog, .R9-Overlay, .fromTop{
+    visibility: hidden;
+   
+}
+
+.Common-Compareto-V3-RightRailCompareTo{
+    
+    width:0;
+    height:0;
+    visibility: hidden;
+}
+
+#c72Op{
+    
+     width:0;
+    height:0;
+    visibility: hidden;
+}
+
+._iFR {
+    background-image: linear-gradient(-225deg,#a6a6a6 0%,#8e8e8e 100%)!important;
+}
+
+
+#Yl0R-navMenuContainer{
+     width:0;
+    height:0;
+    visibility: hidden;
+    
+}
+
+
+.keel .ui-button.Button-Gradient,.keel button.Button-Gradient {
+    background-image: linear-gradient(135deg,#a6a6a6 0%,#8e8e8e 100%);
+    color: #fff
+}
+
+
+.keel .ui-button.Button-Gradient-End,.keel button.Button-Gradient-End {
+    width:0;
+    height:0;
+    visibility: hidden;
+}
+
+.keel .Common-Kn-Rp-Inline .Common-Kn-Rp-FlightInline .price-col.get-in-formation {
+    visibility: hidden;
+}
+
+
+#bmZ8{
+    visibility: hidden;
+    width:0;
+    height:0;
+}
+
+#hayw-business-button{
+    visibility: hidden;
+    width:0;
+    height:0;
+    
+}
+
+ ._kF2 {
+    visibility: hidden;
+    width:0;
+    height:0;
+    }
+
+
+._le{
+    visibility: hidden;
+    width:0;
+    height:0;
+    
+    
+}
+
+._jli{
+    visibility: hidden;
+    width:0;
+    height:0;
+}
+
+.js-trigger-label{
+    visibility: hidden;
+    width:0;
+    height:0;
+}
+
+#hayw-trips-link{
+    visibility: hidden;
+    width:0;
+    height:0;
+    
+}
+
+.js-vertical-hotels{
+    visibility: hidden;
+    width:0;
+    height:0;
+}
+
+.js-vertical-cars{
+    visibility: hidden;
+    width:0;
+    height:0;
+}
+
+.js-vertical-packages{
+    visibility: hidden;
+    width:0;
+    height:0;
+}
+
+.js-vertical-deals{
+    visibility: hidden;
+    width:0;
+    height:0;
+}
+
+.js-vertical-more{
+    visibility: hidden;
+    width:0;
+    height:0;
+}
+
+.priceAlertsToggle{
+    visibility: hidden;
+    width:0;
+    height:0;
+    
+}
+
+.col-lang{
+     visibility: hidden;
+    width:0;
+    height:0;
+}
+
+.col-currency{
+    visibility: hidden;
+    width:0;
+    height:0;
+}
+
+
+
+/*Front page specifically */
+
+/* header */
+#DM_H-headerContainer{
+    visibility: hidden;
+    width:0;
+    height:0;
+    
+}
+
+#DM_H-navMenuContainer{
+   visibility: hidden;
+    width:0;
+    height:0; 
+}
+
+#TkfO-compareToWrapper {
+    visibility: hidden;
+    width:0;
+    height:0;
+}
+
+#TkfO-compareTo-checkbox-row{
+    visibility: hidden;
+    width:0;
+    height:0;
+    
+}
+
+#TkfO-compareTo-title-row{
+    visibility: hidden;
+    width:0;
+    height:0;
+}
+
+section.title-section{
+    visibility: hidden;
+    width:0;
+    height:0;
+    color: blue;
+    
+}
+
+div.keel-container.s-t-bp{
+    color: #898991;
+    width:0;
+    height:0;
+    
+}
+
+#O97_{
+    visibility: hidden;
+    width:0;
+    height:0;
+    
+}
+
+
+
+#er3u{
+    visibility: hidden;
+    width:0;
+    height:0;
+    
+}
+
+.Common-Personalization-PersonalizationContent{
+    visibility: hidden;
+    width:0;
+    height:0;
+    
+}
+
+.destinationContainer{
+     visibility: hidden;
+    width:0;
+    height:0;
+    
+}
+
+.Common-Compareto-V3-Items{
+     visibility: hidden;
+    width:0;
+    height:0;
+    
+}
+
+#c5kGr-compareToWrapper{
+     visibility: hidden;
+    width:0;
+    height:0;
+    
+}
+
+
+.keel .Common-Frontdoor-CommonFrontDoorContent.Common-Frontdoor-PersonalizedFrontDoorContent.rising .title-section .title.dark {
+    color: #969a9d;
+    size: 14px;
+    visibility: hidden;
+}
+
+.keel .Common-Frontdoor-CommonFrontDoorContent.rising .title-section .title {
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    font-size: 14px
+}
+
+
+.Common-Layout-StyleJamFooter {
+    visibility: hidden;
+    width:0;
+    height:0;
+    
+   
+}
+
+footer{
+  visibility: hidden;
+    width:0;
+    height:0;  
+    
+}
+
+
+#XsNF-dialog-content{
+    visibility: hidden;
+    width:0;
+    height:0;  
+    
+}
+
+
+.Common-Results-ResultActionsMenu{
+    visibility: hidden;
+    width:0;
+    height:0; 
+    
+}
+
+._iVg {
+    width:0;
+    height:0;
+}
+
+
+
+.items._ihz._iai{
+    visibility: hidden;
+    width:0;
+    height:0; 
+    
+}
+
+
+._i8w._ihx._ii0{
+    visibility: hidden;
+    width:0;
+    height:0; 
+    
+}
+
+.title-section{
+    visibility: hidden;
+    width:0;
+    height:0; 
+    padding-top: 0px;
+    
+}
+
+
+._igI._iRe._iF5._ibS._iaL._inK._ii0._iiN._ie9._iaB{
+    visibility: hidden;
+    width:0;
+    height:0; 
+    padding-top: 0px;
+    
+}
+
+._iFQ:hover {
+    background-image: linear-gradient(-225deg,#757370 0%,#535251 100%)!important
+}
