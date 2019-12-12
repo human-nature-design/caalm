@@ -1,0 +1,171 @@
+
+/* Landing page ad*/
+.display-tall-hero-video_style_display-hero-video__DIHhm 
+{
+  display: none !important;
+  height:0px;
+}
+
+a-carousel-card
+{
+  display: none !important;
+}
+
+ol.a-carousel 
+{
+  display: none !important;
+}
+
+.a-carousel-rounded-buttons .a-icon-next-rounded, .a-carousel-rounded-buttons .a-icon-previous-rounded 
+{
+ 
+    display: none !important;
+}
+
+
+#navSwmHoliday
+{
+  display: none !important;
+  
+}
+
+#desktop-banner
+{
+  display: none !important;
+}
+
+
+/* Clean up */
+
+#nav-xshop-container
+{
+  display: none !important;
+  
+}
+
+#nav-main
+
+{
+  display: none !important;
+  
+}
+
+#navbar 
+{
+  padding-bottom: 20px;
+
+}
+
+#navbar.nav-bluebeacon 
+{
+    background-color: #9cb374;
+}
+
+#navbar.nav-bluebeacon #nav-belt 
+{
+    background-color: #9cb374;
+}
+
+#navbar .nav-sprite {
+    background-size: 350px;
+}
+
+#nav-logo.nav-prime-1 .nav-logo-tagline
+{
+  display: none!important;
+}
+
+#nav-cart-count
+{
+  display: none!important;
+  
+}
+
+#navbar.nav-bluebeacon #nav-tools .nav-line-1,#navbar.nav-bluebeacon #nav-xshop .nav-line-1 {
+    color: white;
+}
+
+a#nav-hamburger-menu {
+
+    border-radius: 0;
+    border: 0;
+}
+
+.nav-cart-icon, #nav-link-prime, #icp-nav-flyout
+{
+  
+  display:none!important;
+}
+
+#nav-tools #nav-cart .nav-line-1,#nav-tools #nav-cart .nav-line-2,#nav-tools .nav-cart .nav-line-1,#nav-tools .nav-cart .nav-line-2,#navbar .nav-tools #nav-cart .nav-line-1,#navbar .nav-tools #nav-cart .nav-line-2,#navbar .nav-tools .nav-cart .nav-line-1,#navbar .nav-tools .nav-cart .nav-line-2 {
+    margin-left: 0px;
+}
+
+
+#navbar.nav-a11y-t1 #nav-global-location-slot .nav-a:active,#navbar.nav-a11y-t1 #nav-global-location-slot .nav-a:hover,#navbar.nav-a11y-t1 #nav-shop .nav-a:active,#navbar.nav-a11y-t1 #nav-shop .nav-a:hover,#navbar.nav-a11y-t1 #nav-tools .nav-a:active,#navbar.nav-a11y-t1 #nav-tools .nav-a:hover,#navbar.nav-a11y-t1 #nav-xshop .nav-a:active,#navbar.nav-a11y-t1 #nav-xshop .nav-a:hover 
+{
+    border: 0px;
+    border-radius: 0px;
+}
+
+/* Remove amazon recommendations, similar to the Tampermonkey script but in CSS so that it's faster */
+
+
+#gw-layout, #desktop-grid-1, #desktop-grid-2, #desktop-grid-3, #gw-content-grid, #rhf-context, #desktop-ad-btf, #desktop-grid-1-D1, #desktop-grid-1-D2, #gw-desktop-herotator, #nav-swmslot, #gwm-Deck, gwm-CardLoadingIndicator, #rhf-container, #navFooter 
+
+{
+  display:none!important;
+}
+
+
+
+/* Custom CSS for JS additions*/
+#john_homepage
+{
+  text-align: center;
+  font-size: 40px;
+  color: #9cb374;
+  font-family: PT Serif;
+  margin-top: 50px;
+  line-height: normal;
+}
+
+#pageContent {
+    background: white;
+    margin: 0 auto;
+    max-width: none;
+    min-width: 1000px;
+    overflow: inherit;
+}
+
+
+
+/* To Do */
+/* Get the search bar into the main section like in Google? */
+
+/*Menus*/ 
+#hmenu-container #hmenu-canvas #hmenu-customer-profile {
+    background-color:  #9cb374;
+    height: 50px;
+    align-items: center
+}
+
+#hmenu-customer-profile-left, #hmenu-customer-name, #bia-hcb-widget
+{
+  display:none!important;
+}
+
+
+
+/* Search results */
+.slot__ad
+{
+  display:none!important;
+}
+
+
+
+
+
+
+
