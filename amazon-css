@@ -1,25 +1,9 @@
+/* Landing page ad*/
 
-/* Landing page ad - change*/
 .display-tall-hero-video_style_display-hero-video__DIHhm 
 {
   display: none !important;
   height:0px;
-}
-
-a-carousel-card
-{
-  display: none !important;
-}
-
-ol.a-carousel 
-{
-  display: none !important;
-}
-
-.a-carousel-rounded-buttons .a-icon-next-rounded, .a-carousel-rounded-buttons .a-icon-previous-rounded 
-{
- 
-    display: none !important;
 }
 
 
@@ -34,14 +18,19 @@ ol.a-carousel
   display: none !important;
 }
 
+/*
 
-/* Clean up */
+
+/* Navigation cleanup */
+
 
 #nav-xshop-container
 {
   display: none !important;
   
 }
+
+
 
 #nav-main
 
@@ -108,6 +97,7 @@ a#nav-hamburger-menu {
     border-radius: 0px;
 }
 
+
 /* Remove amazon recommendations, similar to the Tampermonkey script but in CSS so that it's faster */
 
 
@@ -116,6 +106,7 @@ a#nav-hamburger-menu {
 {
   display:none!important;
 }
+
 
 
 
@@ -158,14 +149,49 @@ a#nav-hamburger-menu {
 
 
 /* Search results */
+
+/* Removing Slot ad fucks up the search result. Being able to render the page much predicate on the ad being delivered. They are putting so much priority on the ads in this UX it's insane. 
+The site becomes unsecure, so I wonder what's going on there. 
+The hover isn't working. 
+
+In the network, it's this the ad system that begins but is not finishing running. 
+https://aax-us-east.amazon-adsystem.com/e/xsp/getAdj?src=500&slot=auto-bottom-advertising-0&rid=0101aae3f41e625172e627f4067459fd33a25294eba0f9b282d70e0847411a7396b9&callback=aax_xsp_render_ad
+
+The downstream impact is that the ad placement gets borked as well 
+https://www.amazon.com/gp/aq-feedback/lazyLoad/handler/af-link-handler.html?ie=UTF-8&pl=%7B%22adPlacementMetaData%22%3A%7B%22pageType%22%3A%22Search%22%2C%22slotName%22%3A%22auto-bottom-advertising-0%22%2C%22feedbackType%22%3A%22loomSearch%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adProgramId%22%3A%22undefined%22%2C%22adCreativeId%22%3A%22undefined%22%2C%22adId%22%3A%22undefined%22%7D%7D
+
+Maybe not because Brave is blocking the cross-site tracker from the browser POV
+https://aax-us-east.amazon-adsystem.com/e/xsp/getAdj?src=500&slot=auto-bottom-advertising-0&rid=0101aae3f41e625172e627f4067459fd33a25294eba0f9b282d70e0847411a7396b9&callback=aax_xsp_render_ad
+
+Ad system runs when brave is on though. Odd. 
+
+Amazon's Choice and Editorial recommendations weren't coming through in on of them. 
+
+*/ 
+
+
 .slot__ad
 {
   display:none!important;
 }
 
+#pdagEncapsulated
+
+{
+  
+  display:none!important;
+}
 
 
+[data-component-type~=sp-sponsored-result]
+{
+  
+  display:none!important;
+}
 
-
-
+/* Amazon recommends */ 
+.s-shopping-adviser
+{
+  display:none!important;
+}
 
