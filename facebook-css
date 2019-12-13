@@ -1,6 +1,9 @@
 /* Global Popup blocker from
 https://userstyles.org/styles/152663/popupblocker
+Add a new line of code
 */
+
+
 
 body>[id*="ookie"],
 body>[class*="ookie"],
