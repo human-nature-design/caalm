@@ -1,9 +1,8 @@
-var sponsored_bottom = document.querySelector('[data-component-type*="sp-sponsored-result"]')
+// Defines the highest level that still calls out the fact that it's a sponsored ad. You could start one layer down but I was having issues with parent node levels
+var sponsor = document.querySelector('[data-component-type*="s-impression-logger"]')
 
-var sponsored_top = sponsored_bottom.parentNode.parentNode.parentNode
+// Goes up to this highest div level and removes it
+sponsor.parentNode.parentNode.parentNode.remove()
 
-sponsored_top
-
-var sponsored_secondtop = sponsored_bottom.parentNode.parentNode
-
-sponsored_top.removeChild(sponsored_secondtop)
+// And will have to loop https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for
+It's actually going for be a forEach loop: https://jsfiddle.net/puekd4rg/15/
