@@ -1,0 +1,9 @@
+var sponsored_bottom = document.querySelector('[data-component-type*="sp-sponsored-result"]')
+
+var sponsored_top = sponsored_bottom.parentNode.parentNode.parentNode
+
+sponsored_top
+
+var sponsored_secondtop = sponsored_bottom.parentNode.parentNode
+
+sponsored_top.removeChild(sponsored_secondtop)
