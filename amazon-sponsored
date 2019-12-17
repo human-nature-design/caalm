@@ -1,8 +1,9 @@
-// Defines the highest level that still calls out the fact that it's a sponsored ad. You could start one layer down but I was having issues with parent node levels
-var sponsor = document.querySelector('[data-component-type*="s-impression-logger"]')
+// Counts the number of times that this data component shows up on the page
+var sponsored_count = document.querySelectorAll('[data-component-type="s-impression-logger"]').length
 
-// Goes up to this highest div level and removes it
-sponsor.parentNode.parentNode.parentNode.remove()
+// s-impression-logger 4 layers down from the parent div that holds sponsored posts. 
+// For each div that has this type of data, find the parent, then delete (remove) it from the page
+for(var i=0; i<sponsored_count; i++){
 
-// And will have to loop https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for
-It's actually going for be a forEach loop: https://jsfiddle.net/puekd4rg/15/
+    document.querySelector('[data-component-type="s-impression-logger"]').parentNode.parentNode.parentNode.remove();
+}
