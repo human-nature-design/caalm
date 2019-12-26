@@ -1,0 +1,25 @@
+[https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions)
+
+Dit it! - Dec 25, 2019. [https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension). Installed my first extension. 
+
+- Components
+    - Manifest: defines and loads the other files. It's a .json file
+        - Meta data like name, version, description
+        - Script conditions, what javascript file runs and what site it runs on.
+
+            "content_scripts": [
+                {
+                  "matches": website.com,
+                  "js": scriptname.js
+                }
+              ]
+
+    - Script: The things that are being done to the webpages. It's a .js file.
+
+            document.findsomething.in(thispart).dothis(); 
+
+    - Icon: the icon in the extension store and in the browsers, usually png, svg.
+- Uploading (temp)
+    - about:debugging
+
+Loading 'css' and 'js' [https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/content_scripts](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/content_scripts)
