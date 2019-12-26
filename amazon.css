@@ -1,4 +1,74 @@
+/* Color variables
+https://www.w3schools.com/css/css3_variables.asp
+*/
+
+:root, .colors {
+    --green:  #46D28F;
+    --green-dark:  #3bb57b;
+    --yellow: #D2B82E;
+    --yellow-dark: #a68123;
+}
+
+
+
+
+
+/* ===========
+BUTTONS 
+============== */
+
+.a-button-primary {
+    background: var(--green);
+    border-color: var(--green);
+    color: #fff;
+}
+
+.a-button-primary .a-button-inner {
+    background: var(--green);
+    background: -webkit-linear-gradient(top,var(--green),var(--green));
+    background: linear-gradient(to bottom,var(--green),var(--green))
+}
+
+.a-button-primary:hover .a-button-inner {
+    background: var(--green);
+    background: -webkit-linear-gradient(top,var(--green-dark),var(--green-dark));
+    background: linear-gradient(to bottom,var(--green-dark),var(--green-dark))
+}
+
+.a-button-primary:active .a-button-inner {
+    background-color: var(--green);
+    background-image: none
+}
+
+.a-button-primary.a-button-focus,.a-button-primary:focus,.a-button-primary:hover,.a-button-primary:hover:active {
+    border-color: var(--green)
+}
+
+.a-button-primary:active {
+    border-color: var(--green)
+}
+
+.a-button-primary.a-button-focus,.a-button-primary:focus {
+    border-color: var(--green)
+}
+
+.a-button-primary .a-button-text {
+   color: white; 
+}
+
+.a-icon,.a-link-emphasis:after {
+    display: none!important;
+    
+}
+
+.a-hires .a-icon,.a-hires .a-link-emphasis:after {
+    /*background-image: url(https://m.media-amazon.com/images/G/01/AUIClients/AmazonUIIcon-sprite_2x-c5d99e3ff59fde7b73c3a6270cadf470da4d9f64._V2_.png)*/
+  display: none!important;
+}
+
+
 /* Landing page ad*/
+
 
 .display-tall-hero-video_style_display-hero-video__DIHhm 
 {
@@ -21,16 +91,25 @@
 /*
 
 
-/* Navigation cleanup */
+/* ---------
+NAVIGATION
+-----------*/
 
+#nav-logo
+{display: none !important;}
+
+#nav-hamburger-menu
+{display: none !important;}
 
 #nav-xshop-container
-{
-  display: none !important;
+{display: none !important;}
+
+/*Search*/
+
+#nav-search {
+  margin-left: 15%;
   
 }
-
-
 
 #nav-main
 
@@ -47,12 +126,12 @@
 
 #navbar.nav-bluebeacon 
 {
-    background-color: #9cb374;
+    background-color: var(--green);
 }
 
 #navbar.nav-bluebeacon #nav-belt 
 {
-    background-color: #9cb374;
+    background-color: var(--green);
 }
 
 #navbar .nav-sprite {
@@ -80,6 +159,42 @@ a#nav-hamburger-menu {
     border: 0;
 }
 
+
+/* search button change color
+
+#navbar.nav-bluebeacon #nav-search .nav-searchbar.nav-active .nav-search-field,#navbar.nav-bluebeacon #nav-search .nav-searchbar.nav-active .nav-search-scope,#navbar.nav-bluebeacon #nav-search .nav-searchbar.nav-focus .nav-search-field,#navbar.nav-bluebeacon #nav-search .nav-searchbar.nav-focus .nav-search-scope {
+    border-top: 1px solid var(--yellow);
+    border-bottom: 1px solid var(--yellow);
+}
+
+#navbar.nav-bluebeacon #nav-search .nav-searchbar.nav-active .nav-search-scope,#navbar.nav-bluebeacon #nav-search .nav-searchbar.nav-focus .nav-search-scope {
+    border-left: 1px solid var(--yellow);
+}
+
+#navbar.nav-bluebeacon #nav-search .nav-search-field {
+    border: none;
+    border-top: 1px solid transparent
+}
+
+#navbar.nav-bluebeacon #nav-search .nav-search-field.nav-no-dd-search-field {
+    border-radius: 4px 0 0 4px
+}
+
+#navbar.nav-bluebeacon #nav-search .nav-search-submit {
+    background-color: var(--yellow);
+    background-image: none;
+    border: none;
+    width: 45px
+}
+
+#navbar.nav-bluebeacon #nav-search .nav-search-submit.nav-focus,#navbar.nav-bluebeacon #nav-search .nav-search-submit:focus,#navbar.nav-bluebeacon #nav-search .nav-search-submit:hover {
+    background-color: var(--yellow);
+}
+
+
+
+
+/* Other nav items */ 
 .nav-cart-icon, #nav-link-prime, #icp-nav-flyout
 {
   
@@ -97,15 +212,21 @@ a#nav-hamburger-menu {
     border-radius: 0px;
 }
 
+/* My name */ 
+.nav-line-1
+  {display:none!important;}
+
+
+#nav-subnav
+  {display:none!important;}
+
 
 /* Remove amazon recommendations, similar to the Tampermonkey script but in CSS so that it's faster */
 
 
 #gw-layout, #desktop-grid-1, #desktop-grid-2, #desktop-grid-3, #gw-content-grid, #rhf-context, #desktop-ad-btf, #desktop-grid-1-D1, #desktop-grid-1-D2, #gw-desktop-herotator, #nav-swmslot, #gwm-Deck, gwm-CardLoadingIndicator, #rhf-container, #navFooter 
 
-{
-  display:none!important;
-}
+{display:none!important;}
 
 
 
@@ -115,7 +236,7 @@ a#nav-hamburger-menu {
 {
   text-align: center;
   font-size: 40px;
-  color: #9cb374;
+  color: var(--green);
   font-family: PT Serif;
   margin-top: 50px;
   line-height: normal;
@@ -169,6 +290,43 @@ Amazon's Choice and Editorial recommendations weren't coming through in on of th
 
 */ 
 
+/* Sponsored 
+Works well on Rice Cooker with rows, but not the grid views
+Will likely need to us Javascript to find this and go upstream to delete. 
+CSS Attribute Selectors
+
+[data-component-type~=s-impression-logger]
+{
+  display:none!important;
+}
+
+*/
+
+/* This works too*/
+
+/*
+[data-component-type~=sp-sponsored-result]
+{
+  
+ display:none!important;
+}
+*/
+
+/* Trying it in JS now
+document.querySelector('[data-component-type*="sp-sponsored-result"]')
+https://en.wikibooks.org/wiki/JavaScript/Removing_elements
+
+*/
+
+/* Unclear what the stuff under this does, but know it's involved*/
+
+
+
+#ad
+ {display: none!important;}
+
+ .GoogleCreativeContainerClass
+  {display: none!important;}
 
 .slot__ad
 {
@@ -183,15 +341,273 @@ Amazon's Choice and Editorial recommendations weren't coming through in on of th
 }
 
 
-[data-component-type~=sp-sponsored-result]
+
+
+/* Amazon recommends */ 
+
+
+.s-shopping-adviser
+{
+  display:none!important;
+}
+
+
+[cel_widget_id~=SEARCH_RESULTS-SHOPPING_ADVISER]
 {
   
   display:none!important;
 }
 
-/* Amazon recommends */ 
-.s-shopping-adviser
+[data-component-type~=s-filters-panel-view]
 {
   display:none!important;
 }
+
+.amzn-safe-frame-footer
+{
+  display:none!important;
+}
+
+/* Not working to pull out the amazon choice label globally*/
+#B007WQ9YNO-amazons-choice-label
+{
+  display:none!important;
+}
+
+
+/* Amazon choice icon */
+
+[data-a-badge-color=sx-gulfstream] {
+    background-color: var(--green)!important;
+    color: var(--green)!important;
+}
+
+[data-a-badge-type=status] .a-badge-label {
+    max-width: 200px;
+    background-color: #232F3E;
+    color: #232F3E;
+    padding: 0 6px 0 10px;
+}
+
+[data-a-badge-type=status] .a-badge-label:after 
+{
+    display:none!important;
+}
+
+/* Icon deal */ 
+
+[data-a-badge-type~=deal]
+  {display:none!important;} 
+
+/* Prime discount / get it delivered in a day*/
+.a-price[data-a-color=secondary] 
+  {display:none!important;}
+
+/* To-Do John: Gets rid of stars and free one day but also blows away purchase options and image gallery
+.a-spacing-top-micro
+  {display:none!important;}
+*/
+
+
+/*Coupon*/
+[data-component-type~=s-coupon-component]
+  {display:none!important;} 
+
+/*Amazone choice, best seller, etc. Will want to watch out where this impacts and could limit scope to the search results page */
+.a-badge
+  {display:none!important;} 
+
+
+
+/*================
+PRODUCT PAGE
+================== */
+
+#percolate-ui-ilm_div   {display:none!important;}
+
+/* Credit card promo */
+.maple-banner {display:none!important;}
+
+#ourprice_shippingmessage
+  {display:none!important;}
+
+.a-color-price{
+  
+  color: black!important;
+}
+
+
+/* Frequently brought together */
+#sims-consolidated-1_feature_div
+  {display:none!important;}
+
+/* Sponsored products */ 
+#sims-consolidated-2_feature_div
+ {display:none!important;}
+
+/*Other items customers buy after this one */
+#sims-consolidated-3_feature_div
+ {display:none!important;}
+
+/* Special offer and promo */
+#promotions_feature_div
+{display:none!important;}
+
+
+#buyNow
+{display:none!important;}
+
+/* Add other items on check out */ 
+#simpleBundleV2_feature_div
+{display:none!important;}
+
+#wishlistButtonStack
+{display:none!important;}
+
+#digital-dash-create
+{display:none!important;}
+
+.a-icon-prime
+{display:none!important;}
+
+/*Social share */
+#tellAFriendBox_feature_div
+{display:none!important;}
+
+#sponsoredProducts2_feature_div
+{display:none!important;}
+
+#holidayDeliveryMessage_feature_div
+{display:none!important;}
+
+
+/* Rice cooker style */ 
+#mirai-btf-shopbylook-row
+{display:none!important;}
+
+img[alt="PillPack"]
+{display:none!important;}
+
+
+#breadcrumb-back-link, .a-breadcrumb-divider{
+  font-size: 15px;
+  color: var(--green)!important;
+}
+
+#wayfinding-breadcrumbs_container{
+  margin-top: 15px;
+  
+}
+
+.a-color-state {
+   color: var(--green)!important;
+}
+
+#dpx-btf-hlcx-comparison_feature_div
+{display:none!important;}
+
+/* Add to cart */
+
+span#submit.add-to-cart{
+  color: var(--green)!important;
+  
+}
+
+
+
+/* Bananagrams - Low priced items to consider */
+#cerberus, #cerberusVotingContainer
+{display:none!important;}
+
+
+/* Chocking hazard warning */ 
+#cpsia-product-safety-warning_feature_div
+{display:none!important;}
+
+
+
+
+
+
+/* Purchase Flow */
+
+/* After adding to cart - Discover Additional Products */
+#attach-accessories
+{display: none!important;}
+
+
+
+
+
+/* =======
+Category landing pages 
+===============
+*/
+
+
+.acs-shwcs-image-wrap-inner
+{display: none!important;}
+
+.bxc-carousel
+{display: none!important;}
+
+#heroSlideshowBillboard_351355
+{display: none!important;}
+
+div#vxd-brandfarm-brandFarm_300504
+{display: none!important;}
+
+/* Office*/ 
+.bxc-grid__row
+{display: none!important;}
+
+#bx-root
+{display: none!important;}
+
+/* Toyds */ 
+
+.GB-M-COMMON 
+{display: none!important;}
+
+/* Amazon TV / Live to promote toys */ 
+#live-flagship-root
+{display: none!important;}
+
+/* SEO bottom */ 
+.rcmBody
+{display: none!important;}
+
+
+/* =============
+MOBILE
+============== */
+
+.nav-blueheaven #nav-logobar,.nav-ftr-batmobile #nav-logobar {
+    height: 44px;
+    border-bottom: 1px solid var(--green);
+    background-color: var(--green);
+    background: var(--green);
+    background: linear-gradient(to bottom,var(--green),var(--green));
+    background: -moz-linear-gradient(top,var(--green),var(--green));
+    background: -webkit-linear-gradient(top,var(--green),var(--green));
+    background: -o-linear-gradient(top,var(--green),var(--green));
+    background: -ms-linear-gradient(top,var(--green),var(--green))
+}
+
+/* Try the amazon app */ 
+
+#a-popover-1
+{display: none!important;}
+
+
+/* Specific brand search */ 
+
+[data-creative-variation~=deal]
+{display: none!important}
+
+
+
+
+
+
 
