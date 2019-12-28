@@ -1,0 +1,16 @@
+{
+	"name": "caalm web",
+	"description": "an internet for humaans",
+	"manifest_version": 2,
+	"version": "1.1",
+	"content_scripts":[
+		{
+		  "matches": ["*://*.amazon.com/*"],
+		  "js": ["amazon.js"],
+		  "css": ["amazon.css"]
+		}
+	],
+	"icons": {
+		"48": "icon-48.png"
+	}
+}
