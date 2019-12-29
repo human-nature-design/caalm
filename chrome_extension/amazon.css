@@ -9,12 +9,12 @@ https://www.w3schools.com/css/css3_variables.asp
     --yellow-dark: #a68123;
 }
 
-
+/*Some local change here */
 
 
 
 /* ===========
-BUTTONS 
+BUTTONS
 ============== */
 
 .a-button-primary {
@@ -53,12 +53,12 @@ BUTTONS
 }
 
 .a-button-primary .a-button-text {
-   color: white; 
+   color: white;
 }
 
 .a-icon,.a-link-emphasis:after {
     display: none!important;
-    
+
 }
 
 .a-hires .a-icon,.a-hires .a-link-emphasis:after {
@@ -70,7 +70,7 @@ BUTTONS
 /* Landing page ad*/
 
 
-.display-tall-hero-video_style_display-hero-video__DIHhm 
+.display-tall-hero-video_style_display-hero-video__DIHhm
 {
   display: none !important;
   height:0px;
@@ -80,7 +80,7 @@ BUTTONS
 #navSwmHoliday
 {
   display: none !important;
-  
+
 }
 
 #desktop-banner
@@ -108,28 +108,28 @@ NAVIGATION
 
 #nav-search {
   margin-left: 15%;
-  
+
 }
 
 #nav-main
 
 {
   display: none !important;
-  
+
 }
 
-#navbar 
+#navbar
 {
   padding-bottom: 20px;
 
 }
 
-#navbar.nav-bluebeacon 
+#navbar.nav-bluebeacon
 {
     background-color: var(--green)!important;
 }
 
-#navbar.nav-bluebeacon #nav-belt 
+#navbar.nav-bluebeacon #nav-belt
 {
     background-color: var(--green)!important;
 }
@@ -146,7 +146,7 @@ NAVIGATION
 #nav-cart-count
 {
   display: none!important;
-  
+
 }
 
 #navbar.nav-bluebeacon #nav-tools .nav-line-1,#navbar.nav-bluebeacon #nav-xshop .nav-line-1 {
@@ -194,10 +194,10 @@ a#nav-hamburger-menu {
 
 
 
-/* Other nav items */ 
+/* Other nav items */
 .nav-cart-icon, #nav-link-prime, #icp-nav-flyout
 {
-  
+
   display:none!important;
 }
 
@@ -206,13 +206,13 @@ a#nav-hamburger-menu {
 }
 
 
-#navbar.nav-a11y-t1 #nav-global-location-slot .nav-a:active,#navbar.nav-a11y-t1 #nav-global-location-slot .nav-a:hover,#navbar.nav-a11y-t1 #nav-shop .nav-a:active,#navbar.nav-a11y-t1 #nav-shop .nav-a:hover,#navbar.nav-a11y-t1 #nav-tools .nav-a:active,#navbar.nav-a11y-t1 #nav-tools .nav-a:hover,#navbar.nav-a11y-t1 #nav-xshop .nav-a:active,#navbar.nav-a11y-t1 #nav-xshop .nav-a:hover 
+#navbar.nav-a11y-t1 #nav-global-location-slot .nav-a:active,#navbar.nav-a11y-t1 #nav-global-location-slot .nav-a:hover,#navbar.nav-a11y-t1 #nav-shop .nav-a:active,#navbar.nav-a11y-t1 #nav-shop .nav-a:hover,#navbar.nav-a11y-t1 #nav-tools .nav-a:active,#navbar.nav-a11y-t1 #nav-tools .nav-a:hover,#navbar.nav-a11y-t1 #nav-xshop .nav-a:active,#navbar.nav-a11y-t1 #nav-xshop .nav-a:hover
 {
     border: 0px;
     border-radius: 0px;
 }
 
-/* My name */ 
+/* My name */
 .nav-line-1
   {display:none!important;}
 
@@ -224,7 +224,7 @@ a#nav-hamburger-menu {
 /* Remove amazon recommendations, similar to the Tampermonkey script but in CSS so that it's faster */
 
 
-#gw-layout, #desktop-grid-1, #desktop-grid-2, #desktop-grid-3, #gw-content-grid, #rhf-context, #desktop-ad-btf, #desktop-grid-1-D1, #desktop-grid-1-D2, #gw-desktop-herotator, #nav-swmslot, #gwm-Deck, gwm-CardLoadingIndicator, #rhf-container, #navFooter 
+#gw-layout, #desktop-grid-1, #desktop-grid-2, #desktop-grid-3, #gw-content-grid, #rhf-context, #desktop-ad-btf, #desktop-grid-1-D1, #desktop-grid-1-D2, #gw-desktop-herotator, #nav-swmslot, #gwm-Deck, gwm-CardLoadingIndicator, #rhf-container, #navFooter
 
 {display:none!important;}
 
@@ -255,7 +255,7 @@ a#nav-hamburger-menu {
 /* To Do */
 /* Get the search bar into the main section like in Google? */
 
-/*Menus*/ 
+/*Menus*/
 #hmenu-container #hmenu-canvas #hmenu-customer-profile {
     background-color:  #9cb374;
     height: 50px;
@@ -271,28 +271,28 @@ a#nav-hamburger-menu {
 
 /* Search results */
 
-/* Removing Slot ad fucks up the search result. Being able to render the page much predicate on the ad being delivered. They are putting so much priority on the ads in this UX it's insane. 
-The site becomes unsecure, so I wonder what's going on there. 
-The hover isn't working. 
+/* Removing Slot ad fucks up the search result. Being able to render the page much predicate on the ad being delivered. They are putting so much priority on the ads in this UX it's insane.
+The site becomes unsecure, so I wonder what's going on there.
+The hover isn't working.
 
-In the network, it's this the ad system that begins but is not finishing running. 
+In the network, it's this the ad system that begins but is not finishing running.
 https://aax-us-east.amazon-adsystem.com/e/xsp/getAdj?src=500&slot=auto-bottom-advertising-0&rid=0101aae3f41e625172e627f4067459fd33a25294eba0f9b282d70e0847411a7396b9&callback=aax_xsp_render_ad
 
-The downstream impact is that the ad placement gets borked as well 
+The downstream impact is that the ad placement gets borked as well
 https://www.amazon.com/gp/aq-feedback/lazyLoad/handler/af-link-handler.html?ie=UTF-8&pl=%7B%22adPlacementMetaData%22%3A%7B%22pageType%22%3A%22Search%22%2C%22slotName%22%3A%22auto-bottom-advertising-0%22%2C%22feedbackType%22%3A%22loomSearch%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adProgramId%22%3A%22undefined%22%2C%22adCreativeId%22%3A%22undefined%22%2C%22adId%22%3A%22undefined%22%7D%7D
 
 Maybe not because Brave is blocking the cross-site tracker from the browser POV
 https://aax-us-east.amazon-adsystem.com/e/xsp/getAdj?src=500&slot=auto-bottom-advertising-0&rid=0101aae3f41e625172e627f4067459fd33a25294eba0f9b282d70e0847411a7396b9&callback=aax_xsp_render_ad
 
-Ad system runs when brave is on though. Odd. 
+Ad system runs when brave is on though. Odd.
 
-Amazon's Choice and Editorial recommendations weren't coming through in on of them. 
+Amazon's Choice and Editorial recommendations weren't coming through in on of them.
 
-*/ 
+*/
 
-/* Sponsored 
+/* Sponsored
 Works well on Rice Cooker with rows, but not the grid views
-Will likely need to us Javascript to find this and go upstream to delete. 
+Will likely need to us Javascript to find this and go upstream to delete.
 CSS Attribute Selectors
 
 [data-component-type~=s-impression-logger]
@@ -307,7 +307,7 @@ CSS Attribute Selectors
 /*
 [data-component-type~=sp-sponsored-result]
 {
-  
+
  display:none!important;
 }
 */
@@ -339,7 +339,7 @@ https://en.wikibooks.org/wiki/JavaScript/Removing_elements
 
 
 
-/* Amazon recommends */ 
+/* Amazon recommends */
 
 
 .s-shopping-adviser
@@ -350,7 +350,7 @@ https://en.wikibooks.org/wiki/JavaScript/Removing_elements
 
 [cel_widget_id~=SEARCH_RESULTS-SHOPPING_ADVISER]
 {
-  
+
   display:none!important;
 }
 
@@ -385,18 +385,18 @@ https://en.wikibooks.org/wiki/JavaScript/Removing_elements
     padding: 0 6px 0 10px;
 }
 
-[data-a-badge-type=status] .a-badge-label:after 
+[data-a-badge-type=status] .a-badge-label:after
 {
     display:none!important;
 }
 
-/* Icon deal */ 
+/* Icon deal */
 
 [data-a-badge-type~=deal]
-  {display:none!important;} 
+  {display:none!important;}
 
 /* Prime discount / get it delivered in a day*/
-.a-price[data-a-color=secondary] 
+.a-price[data-a-color=secondary]
   {display:none!important;}
 
 /* To-Do John: Gets rid of stars and free one day but also blows away purchase options and image gallery
@@ -407,11 +407,11 @@ https://en.wikibooks.org/wiki/JavaScript/Removing_elements
 
 /*Coupon*/
 [data-component-type~=s-coupon-component]
-  {display:none!important;} 
+  {display:none!important;}
 
 /*Amazone choice, best seller, etc. Will want to watch out where this impacts and could limit scope to the search results page */
 .a-badge
-  {display:none!important;} 
+  {display:none!important;}
 
 
 
@@ -428,7 +428,7 @@ PRODUCT PAGE
   {display:none!important;}
 
 .a-color-price{
-  
+
   color: black!important;
 }
 
@@ -437,7 +437,7 @@ PRODUCT PAGE
 #sims-consolidated-1_feature_div
   {display:none!important;}
 
-/* Sponsored products */ 
+/* Sponsored products */
 #sims-consolidated-2_feature_div
  {display:none!important;}
 
@@ -453,7 +453,7 @@ PRODUCT PAGE
 #buyNow
 {display:none!important;}
 
-/* Add other items on check out */ 
+/* Add other items on check out */
 #simpleBundleV2_feature_div
 {display:none!important;}
 
@@ -477,7 +477,7 @@ PRODUCT PAGE
 {display:none!important;}
 
 
-/* Rice cooker style */ 
+/* Rice cooker style */
 #mirai-btf-shopbylook-row
 {display:none!important;}
 
@@ -492,7 +492,7 @@ img[alt="PillPack"]
 
 #wayfinding-breadcrumbs_container{
   margin-top: 15px;
-  
+
 }
 
 .a-color-state {
@@ -506,7 +506,7 @@ img[alt="PillPack"]
 
 span#submit.add-to-cart{
   color: var(--green)!important;
-  
+
 }
 
 
@@ -516,7 +516,7 @@ span#submit.add-to-cart{
 {display:none!important;}
 
 
-/* Chocking hazard warning */ 
+/* Chocking hazard warning */
 #cpsia-product-safety-warning_feature_div
 {display:none!important;}
 
@@ -536,7 +536,7 @@ span#submit.add-to-cart{
 
 
 /* =======
-Category landing pages 
+Category landing pages
 ===============
 */
 
@@ -553,23 +553,23 @@ Category landing pages
 div#vxd-brandfarm-brandFarm_300504
 {display: none!important;}
 
-/* Office*/ 
+/* Office*/
 .bxc-grid__row
 {display: none!important;}
 
 #bx-root
 {display: none!important;}
 
-/* Toyds */ 
+/* Toyds */
 
-.GB-M-COMMON 
+.GB-M-COMMON
 {display: none!important;}
 
-/* Amazon TV / Live to promote toys */ 
+/* Amazon TV / Live to promote toys */
 #live-flagship-root
 {display: none!important;}
 
-/* SEO bottom */ 
+/* SEO bottom */
 .rcmBody
 {display: none!important;}
 
@@ -590,20 +590,13 @@ MOBILE
     background: -ms-linear-gradient(top,var(--green),var(--green))
 }
 
-/* Try the amazon app */ 
+/* Try the amazon app */
 
 #a-popover-1
 {display: none!important;}
 
 
-/* Specific brand search */ 
+/* Specific brand search */
 
 [data-creative-variation~=deal]
 {display: none!important}
-
-
-
-
-
-
-
