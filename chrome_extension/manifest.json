@@ -8,7 +8,15 @@
 		  "matches": ["*://*.amazon.com/*"],
 		  "js": ["amazon.js"],
 		  "css": ["amazon.css"]
+		},
+
+		{
+		"matches": ["*://*.facebook.com/*"],
+		"js": ["facebook.js"],
+		"css": ["facebook.css"]
 		}
+
+
 	],
 	"icons": {
 		"48": "icon-48.png"
