@@ -833,10 +833,3 @@ body [data-notification-id="cookiewarning"],
   visibility:hidden;
 
 }
-
-/*
-Ads inline are really hard to isolate
-Here's what they may be called: "type":"click2canvas","fbsource":703,"ref":"nf_generic"
-Got it! https://greasyfork.org/en/scripts/377350-hide-ads-on-facebook/code
-
-*/

@@ -1,3 +1,5 @@
+// Source: https://greasyfork.org/en/scripts/377350-hide-ads-on-facebook/code
+
 const HideAds = () => {
       try {
   const feeds = document.getElementById('contentArea').querySelectorAll('[id*=story]');

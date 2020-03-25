@@ -1,0 +1,13 @@
+/* Pulled from the best no ad, annoyances lists around the world
+
+EasyList: https://easylist.to/easylist/easylist.txt
+uBlock:
+https://github.com/uBlockOrigin/uAssets/blob/master/filters/annoyances.txt
+https://github.com/uBlockOrigin/uAssets/blob/master/filters/filters.txt
+
+Hmmm - this actually isn't working. Looks like the ad on the bottom is coming through an iframe
+*/
+
+#ad {
+display: none !important;
+}
