@@ -46,7 +46,10 @@ body [data-notification-id="cookiewarning"],
 
 
 
-/*All of the colors*/
+/*
+=====================
+Color swatches!
+All of the colors==============*/
 
 :root, .__fb-light-mode {
     --fds-active-icon:  #3578E5;
@@ -421,62 +424,17 @@ body [data-notification-id="cookiewarning"],
 }
 
 
-/* User is logged in and on - that green dot*/
-._354z
-{
-  height: 0;
-  width: 0;
-  visibility: hidden;
-}
-
-/* User has a story that they posted - that color around their picture */
-._6_ut._6y97 {
-    border-color: rgba(90, 89, 90, 0.3);
-}
-
-
-/*Ridding Stories*/
-._7psf._5pcr
-{
-  height: 0;
-  width: 0;
-  visibility: hidden;
-}
-
-
-/* Get rid of reaction (like) , comments, and share */
-
-
-.commentable_item, ._68wo
-
-{
-  height: 0;
-  width: 0;
-  visibility: hidden;
-}
 
 
 
-/*Link in the posts, usually from sponsored with CTAs*/
-._3ekx._29_4
-{
-  height: 0;
-  width: 0;
-  visibility: hidden;
-}
+/*
+=============
+Top Nav , Nav Bar, Navigation
+===============
+*/
 
 
-/* Font family */
-  body
-  {
-    font-family: 'Montserrat', sans-serif;
-  }
 
-/* Body bgcolor */
-  ._5vb_, ._5vb_ #contentCol
-  {
-    background-color: #ECEFF1;
-  }
 
 /* "Blue"-bar */
   ._50tj
@@ -486,11 +444,17 @@ body [data-notification-id="cookiewarning"],
     background-color: #fff /*#01579b*/;
   }
 
-  ._2s1x ._2s1y
+/* Text on top nav*/
+  ._2s1x ._2s1y, ._cy6
   {
-    background-color: transparent;
     border-bottom: 0;
+    color: black;
   }
+
+
+
+
+
 
 /* Profile/Home buttons */
   ._cy7:hover, ._cy7:focus
@@ -559,54 +523,147 @@ body [data-notification-id="cookiewarning"],
     border: none;
   }
 
-/* Main logo */
+/* Main logo, hosted on webflow?  */
   ._2md
   {
-    background-image: url(https://www.confuciusgroningen.nl/assets/images/logo-facebook.svg);
-    background-position: 0 0;
-    background-size: 24px 24px;
+    background-image: url(https://uploads-ssl.webflow.com/5e6c7fe65212509242144a0d/5e8a949306f670236dd6490b_facebook_logo.svg)!important;
+    background-repeat: no-repeat!important;
+    background-position: 0 0!important;
+    background-size: 25px!important;
+    opacity: 1;
   }
 
 
-/* Notifications button */
-  ._4xi2._5orm.hasNew a.jewelButton ._2n_9, ._4xi2._5orm a.jewelButton:active ._2n_9, ._4xi2._5orm.openToggler a.jewelButton ._2n_9
+  /* Top Nav Icons, takes the Facebook asset library png https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/uVvHzo8O7j6.png
+  and references only the black or grey ones all the time. Doesn't work now which means
+  that the ref is likley broken.
+
+  /* Friend requests button */
+    ._3nzl.hasNew a.jewelButton ._2n_9, ._3nzl a.jewelButton:active ._2n_9, ._3nzl.openToggler a.jewelButton ._2n_9,
+  ._h2p ._3nzl.hasNew .jewelButton ._2n_9, ._h2p ._3nzl .jewelButton:active ._2n_9, ._h2p ._3nzl.openToggler .jewelButton ._2n_9
+    {
+      background-image: url(https://uploads-ssl.webflow.com/5e6c7fe65212509242144a0d/5e8ac182a6b2c1241cac3532_fb_people.svg)!important;
+      background-repeat: no-repeat!important;
+      background-position: 0 0!important;
+      background-size: 25px!important;
+      opacity: 1;
+    }
+
+    /* Messages button */
+    ._h2p ._330i._1z4y .jewelButton ._2n_9,._h2p ._330i._1z4y .jewelButton:hover ._2n_9,._h2p ._330i._1z4y .jewelButton:focus ._2n_9
+    ._330i._1z4y a.jewelButton ._2n_9
+      {
+      background-image: url(https://uploads-ssl.webflow.com/5e6c7fe65212509242144a0d/5e8abfd4ec626f4a4d32e012_fb_message.svg)!important;
+      background-repeat: no-repeat!important;
+      background-position: 0 0!important;
+      background-size: 25px!important;
+      opacity: 1;
+      }
+
+    /* Notifications button */
+    ._4xi2.hasNew a.jewelButton ._2n_9,._h2p ._4xi2 a.jewelButton:active ._2n_9,._h2p ._4xi2.openToggler a.jewelButton ._2n_9
+    ._h2p._13l6 ._4xi2 a.jewelButton ._2n_9,._h2p._13l6 ._4xi2 a.jewelButton:hover ._2n_9,._h2p._13l6 ._4xi2 a.jewelButton:focus ._2n_9{
+      background-image: url(https://uploads-ssl.webflow.com/5e6c7fe65212509242144a0d/5e8abfd458edde114b798fa5_fb_notification.svg)!important;
+      background-repeat: no-repeat!important;
+      background-position: 0 0!important;
+      background-size: 25px!important;
+      opacity: 1;
+    }
+
+
+
+
+
+
+  /* Help button
+    ._4d1i ._59fc:active ._tmz, ._4d1i.openToggler ._59fc ._tmz,
+  ._h2p ._4d1i ._59fc:active ._59fb, ._h2p ._4d1i.openToggler ._59fc ._59fb
+    {
+      background-position: 0 -1092px;
+    }
+
+  /* Account settings button
+    ._5lxs:active ._5lxt, .openToggler ._5lxs ._5lxt,
+  ._h2p ._5lxs:active ._5lxt, ._h2p .openToggler ._5lxs ._5lxt, ._h2p ._5lxs:active ._6qfu, ._h2p .openToggler ._5lxs ._6qfu
+    {
+      background-position: 0 -942px;
+    }
+
+  */
+
+
+#notificationsCountValue
+{
+  display: none!important;
+}
+
+#requestsCountValue
+{
+  display: none!important;
+}
+
+
+/* User is logged in and on - that green dot*/
+._354z
+{
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+/* User has a story that they posted - that color around their picture */
+._6_ut._6y97 {
+    border-color: rgba(90, 89, 90, 0.3);
+}
+
+
+/*Ridding Stories*/
+._7psf._5pcr
+{
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+
+/* Get rid of reaction (like) , comments, and share */
+
+
+.commentable_item, ._68wo
+
+{
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+
+
+/*Link in the posts, usually from sponsored with CTAs*/
+._3ekx._29_4
+{
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+
+/* Font family */
+  body
   {
-    background-position: 0 -892px;
-    visibility:hidden;
+    font-family: 'Montserrat', sans-serif;
   }
 
-
-
-
-
-
-/* Messages button */
-  ._330i._1z4y.hasNew a.jewelButton ._2n_9, ._330i._1z4y a.jewelButton:active ._2n_9, ._330i._1z4y.openToggler a.jewelButton ._2n_9,
-._h2p ._330i._1z4y.hasNew .jewelButton ._2n_9, ._h2p ._330i._1z4y .jewelButton:active ._2n_9, ._h2p ._330i._1z4y.openToggler .jewelButton ._2n_9
+/* Body bgcolor */
+  ._5vb_, ._5vb_ #contentCol
   {
-    background-position: 0 -1042px;
+    background-color: #ECEFF1;
   }
 
-/* Friend requests button */
-  ._3nzl.hasNew a.jewelButton ._2n_9, ._3nzl a.jewelButton:active ._2n_9, ._3nzl.openToggler a.jewelButton ._2n_9,
-._h2p ._3nzl.hasNew .jewelButton ._2n_9, ._h2p ._3nzl .jewelButton:active ._2n_9, ._h2p ._3nzl.openToggler .jewelButton ._2n_9
-  {
-    background-position: 0 -992px;
-  }
 
-/* Help button */
-  ._4d1i ._59fc:active ._tmz, ._4d1i.openToggler ._59fc ._tmz,
-._h2p ._4d1i ._59fc:active ._59fb, ._h2p ._4d1i.openToggler ._59fc ._59fb
-  {
-    background-position: 0 -1092px;
-  }
 
-/* Account settings button */
-  ._5lxs:active ._5lxt, .openToggler ._5lxs ._5lxt,
-._h2p ._5lxs:active ._5lxt, ._h2p .openToggler ._5lxs ._5lxt, ._h2p ._5lxs:active ._6qfu, ._h2p .openToggler ._5lxs ._6qfu
-  {
-    background-position: 0 -942px;
-  }
+
+
 
 /* Sidebar */
   ._3qzg,
@@ -780,7 +837,7 @@ body [data-notification-id="cookiewarning"],
 /*The right column is basically all ads*/
 #rightCol
 {
-    visibility:hidden;
+  visibility:hidden;
   width:0;
   height:0;
 
@@ -825,11 +882,9 @@ body [data-notification-id="cookiewarning"],
 }
 
 
-/*Create a post*/
+/*Create Post first thing in the Feed */
  ._3u13
 {
-  width:0;
-  height:0;
-  visibility:hidden;
+  display: none!important;
 
 }

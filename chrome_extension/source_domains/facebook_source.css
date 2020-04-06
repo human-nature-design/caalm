@@ -1,0 +1,1883 @@
+/*
+Source css
+https://static.xx.fbcdn.net/rsrc.php/v3/yb/l/0,cross/UD56TJnytzC.css?_nc_x=EvA3E4gV5Tk
+*/
+
+._8c-- {
+    height: 44px
+}
+
+._8c-_ {
+    display: none
+}
+
+._8c_0 {
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    height: 44px;
+    justify-content: center;
+    position: fixed;
+    top: 43px;
+    width: 100%;
+    z-index: 300
+}
+
+._8c_1 {
+    min-width: 470px;
+    text-align: center
+}
+
+._8c_2 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    padding-right: 8px;
+    vertical-align: middle
+}
+
+._8c_3 {
+    margin-right: 4px
+}
+
+._50hf {
+    color: #7f7f7f
+}
+
+._7kfs {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start
+}
+
+._7kft {
+    align-items: center;
+    background-color: #f5f6f7;
+    border: 1px solid #dadde1;
+    border-radius: 50%;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    margin-right: 8px;
+    position: relative;
+    width: 40px
+}
+
+._7kfu {
+    color: #385898;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    display: block
+}
+
+._7kfv {
+    color: #606770;
+    font-size: 12px;
+    font-weight: 400
+}
+
+._2vaw {
+    background-color: whitesmoke;
+    border-left: 1px solid #e5e5e5;
+    display: table;
+    height: 280px;
+    margin-left: 12px;
+    white-space: normal;
+    width: 192px
+}
+
+._2vaw._7xuy {
+    height: 308px;
+    width: 230px
+}
+
+._2vay {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle
+}
+
+._l91 {
+    padding-left: 8px
+}
+
+._l91 .FriendRequestAdd,._l91 .FriendRequestOutgoing {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 170px
+}
+
+._l91._7xtv .FriendRequestAdd,._l91._7xtv .FriendRequestOutgoing {
+    width: 196px
+}
+
+._l91 .FriendRequestOutgoing {
+    margin-left: 0
+}
+
+._l92 {
+    display: block
+}
+
+._l95 ._l96 {
+    margin: 5px 0;
+    padding-left: 8px
+}
+
+._l95 ._7dq9 {
+    min-height: 20px
+}
+
+._l95 ._6xe8 {
+    margin-top: 2px;
+    vertical-align: middle
+}
+
+._l97 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 188px
+}
+
+._l97._7xtv {
+    width: 222px
+}
+
+._l97 ._50hf {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 174px
+}
+
+._l95 {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2);
+    margin-bottom: 7px;
+    margin-left: 12px;
+    max-width: 500px;
+    padding-bottom: 8px;
+    vertical-align: top;
+    white-space: normal
+}
+
+._l95._1595 {
+    padding-bottom: 3px
+}
+
+._1r7n._l98 {
+    margin-left: 192px;
+    margin-top: 5px;
+    z-index: 2
+}
+
+._7xtv ._1r7n._l98 {
+    margin-left: 218px
+}
+
+._l98 .img {
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 2px
+}
+
+.FlyoutSubscriptionMenu {
+    min-width: 180px
+}
+
+.SubscriptionMenu .itemLabel {
+    overflow: hidden
+}
+
+div.SubscriptionMenu .SubscriptionMenuCategory .itemAnchor {
+    font-weight: normal
+}
+
+div.FriendListSubscribeSubmenu {
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+div.FriendListActionMenu,div.InterestListMenuDisconnect {
+    padding-top: 0
+}
+
+div.InterestListMenuLists {
+    padding-bottom: 0
+}
+
+div.InterestListMenu {
+    min-width: 100px
+}
+
+.initialFlyout .FriendListSubscribeSubmenu {
+    padding-top: 4px
+}
+
+.initialFlyout .FlyoutMenuHeader .FlyoutMenuHeaderText {
+    margin-left: -12px;
+    padding-top: 4px
+}
+
+.initialFlyout .FlyoutMenuHeader .FlyoutMenuHeaderText .itemAnchor {
+    color: #444950;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 14px
+}
+
+.NonFriendSubscriptionMenu .hideFromNonFriend,.isUnsubscribed .SubscribeMenuSettingsItem,.subscriptionMenuOpen .FriendListActionMenu,.subscriptionMenuOpen .FlyoutFriendListMenu,.subscriptionMenuOpen .InterestListMenuLists,.subscriptionMenuOpen .InterestListMenuDisconnect,.subscriptionMenuOpen .FriendListSubscribeSubmenu,.subscriptionMenuOpen .AddToInterestListsMenuItem,.initialFlyout.subscriptionMenuOpen .FlyoutFriendListMenu,.initialFlyout.subscriptionMenuOpen .InterestListMenuLists,.initialFlyout.subscriptionMenuOpen .InterestListMenuDisconnect,.initialFlyout.subscriptionMenuOpen .FriendListSubscribeSubmenu,.initialFlyout.subscriptionMenuOpen .AddToInterestListsMenuItem,.initialFlyout .InterestListMenuLists,.initialFlyout .InterestListMenuGoBack,.cannotSubscribe .FriendListSubscribeSubmenu,.noSubscriptionLevels .SubscribeMenuSettingsItem,.noSubscribeCheckbox .SubscribeMenuSubscribeCheckbox,.FriendListSubscriptionsMenu {
+    display: none
+}
+
+.initialFlyout .FriendListSubscribeSubmenu,.initialFlyout .AddToInterestListsMenuItem,.initialFlyout .InterestListMenuDisconnect,.initialFlyout .FlyoutMenuHeader .subscriptionMenuOpen .FriendListSubscriptionsMenu {
+    display: block
+}
+
+._4962 {
+    float: left;
+    position: relative
+}
+
+._4962 .jewelCount {
+    display: flex;
+    position: absolute;
+    right: 1px;
+    top: 2px
+}
+
+._4962 a.jewelButton,._4962 a.jewelButton:active,._4962 a.jewelButton:focus,._4962 a.jewelButton:hover {
+    display: block;
+    margin: 0;
+    outline: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 4px;
+    position: relative;
+    text-decoration: none
+}
+
+._4962 ._2n_9 {
+    background-clip: content-box;
+    background-origin: content-box;
+    height: 24px;
+    padding: 0 3px 3px 0;
+    width: 24px
+}
+
+._h2p ._4962 .jewelButton,._h2p ._4962 .jewelButton:active,._h2p ._4962 .jewelButton:focus,._h2p ._4962 .jewelButton:hover {
+    margin: 0 2px;
+    padding: 4px
+}
+
+._h2p ._4962 ._2n_9 {
+    background-clip: border-box;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    width: 20px
+}
+
+._1z4y ._1z4y {
+    margin-right: inherit
+}
+
+.highContrast ._1z4y a.jewelButton ._2n_9:before {
+    content: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    margin: -638px 0 0 0;
+    position: absolute
+}
+
+.highContrast ._1z4y a.jewelButton ._2n_9 {
+    overflow: hidden;
+    position: relative
+}
+
+._1z4y a.jewelButton ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -638px;
+    opacity: .6
+}
+
+._1z4y a.jewelButton:hover ._2n_9,._1z4y a.jewelButton:focus ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -638px;
+    opacity: .8
+}
+
+._1z4y.hasNew a.jewelButton ._2n_9,._1z4y a.jewelButton:active ._2n_9,._1z4y.openToggler a.jewelButton ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -664px;
+    opacity: 1
+}
+
+@media (-ms-high-contrast: black-on-white) {
+    ._1z4y a.jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -638px;
+        opacity: .8
+    }
+
+    ._1z4y a.jewelButton:hover ._2n_9,._1z4y a.jewelButton:focus ._2n_9,._1z4y.hasNew a.jewelButton ._2n_9,._1z4y a.jewelButton:active ._2n_9,._1z4y.openToggler a.jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -638px;
+        opacity: 1
+    }
+}
+
+@media (-ms-high-contrast: white-on-black) {
+    ._1z4y a.jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -664px;
+        opacity: .8
+    }
+
+    ._1z4y a.jewelButton:hover ._2n_9,._1z4y a.jewelButton:focus ._2n_9,._1z4y.hasNew a.jewelButton ._2n_9,._1z4y a.jewelButton:active ._2n_9,._1z4y.openToggler a.jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -664px;
+        opacity: 1
+    }
+}
+
+.highContrast ._330i._1z4y a.jewelButton ._2n_9:before {
+    content: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    margin: -690px 0 0 0;
+    position: absolute
+}
+
+.highContrast ._330i._1z4y a.jewelButton ._2n_9 {
+    overflow: hidden;
+    position: relative
+}
+
+._330i._1z4y a.jewelButton ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -690px;
+    opacity: .6
+}
+
+._330i._1z4y a.jewelButton:hover ._2n_9,._330i._1z4y a.jewelButton:focus ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -690px;
+    opacity: .8
+}
+
+._330i._1z4y.hasNew a.jewelButton ._2n_9,._330i._1z4y a.jewelButton:active ._2n_9,._330i._1z4y.openToggler a.jewelButton ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -716px;
+    opacity: 1
+}
+
+@media (-ms-high-contrast: black-on-white) {
+    ._330i._1z4y a.jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -690px;
+        opacity: .8
+    }
+
+    ._330i._1z4y a.jewelButton:hover ._2n_9,._330i._1z4y a.jewelButton:focus ._2n_9,._330i._1z4y.hasNew a.jewelButton ._2n_9,._330i._1z4y a.jewelButton:active ._2n_9,._330i._1z4y.openToggler a.jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -690px;
+        opacity: 1
+    }
+}
+
+@media (-ms-high-contrast: white-on-black) {
+    ._330i._1z4y a.jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -716px;
+        opacity: .8
+    }
+
+    ._330i._1z4y a.jewelButton:hover ._2n_9,._330i._1z4y a.jewelButton:focus ._2n_9,._330i._1z4y.hasNew a.jewelButton ._2n_9,._330i._1z4y a.jewelButton:active ._2n_9,._330i._1z4y.openToggler a.jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -716px;
+        opacity: 1
+    }
+}
+
+._h2p ._330i._1z4y .jewelButton ._2n_9,._h2p ._330i._1z4y .jewelButton:hover ._2n_9,._h2p ._330i._1z4y .jewelButton:focus ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -846px;
+    height: 24px;
+    width: 24px
+}
+
+._h2p ._330i._1z4y.hasNew .jewelButton ._2n_9,._h2p ._330i._1z4y .jewelButton:active ._2n_9,._h2p ._330i._1z4y.openToggler .jewelButton ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -872px
+}
+
+@media (-ms-high-contrast: black-on-white) {
+    ._h2p ._330i._1z4y .jewelButton ._2n_9,._h2p ._330i._1z4y .jewelButton:hover ._2n_9,._h2p ._330i._1z4y .jewelButton:focus ._2n_9,._h2p ._330i._1z4y.hasNew .jewelButton ._2n_9,._h2p ._330i._1z4y .jewelButton:active ._2n_9,._h2p ._330i._1z4y.openToggler .jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -846px
+    }
+}
+
+@media (-ms-high-contrast: white-on-black) {
+    ._h2p ._330i._1z4y .jewelButton ._2n_9,._h2p ._330i._1z4y .jewelButton:hover ._2n_9,._h2p ._330i._1z4y .jewelButton:focus ._2n_9,._h2p ._330i._1z4y.hasNew .jewelButton ._2n_9,._h2p ._330i._1z4y .jewelButton:active ._2n_9,._h2p ._330i._1z4y.openToggler .jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -872px
+    }
+}
+
+._h2p ._1z4y .jewelButton ._2n_9._vl0 {
+    margin-left: 4px;
+    margin-right: 5px
+}
+
+._h2p ._330i._1z4y .jewelButton ._2n_9._vl0,._h2p ._330i._1z4y .jewelButton:hover ._2n_9._vl0,._h2p ._330i._1z4y .jewelButton:focus ._2n_9._vl0 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -14px
+}
+
+._h2p ._330i._1z4y.hasNew .jewelButton ._2n_9._vl0,._h2p ._330i._1z4y .jewelButton:active ._2n_9._vl0,._h2p ._330i._1z4y.openToggler .jewelButton ._2n_9._vl0 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -40px
+}
+
+._2yoj._1z4y a.jewelButton {
+    margin-top: 0
+}
+
+._2yoj._1z4y a.jewelButton ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -664px
+}
+
+._1nxz._1z4y._4962 {
+    margin: 0 0 0 16px
+}
+
+._1nxz._1z4y a.jewelButton {
+    padding: 10px
+}
+
+._1nxz._1z4y a.jewelButton:hover {
+    background-color: #f7f6f5
+}
+
+._1nxz._1z4y a.jewelButton ._2n_9,._1nxz._1z4y.hasNew a.jewelButton ._2n_9,._1nxz._1z4y a.jewelButton:hover ._2n_9,._1nxz._1z4y a.jewelButton:focus ._2n_9,._1nxz._330i._1z4y a.jewelButton ._2n_9,._1nxz._330i._1z4y.hasNew a.jewelButton ._2n_9,._1nxz._330i._1z4y a.jewelButton:hover ._2n_9,._1nxz._330i._1z4y a.jewelButton:focus ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -404px;
+    background-clip: border-box;
+    height: 24px;
+    opacity: 1;
+    padding: 0;
+    transition-duration: 200ms;
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(.08,.52,.52,1);
+    width: 24px
+}
+
+._1nxz._1z4y a.jewelButton:active ._2n_9,._1nxz._330i._1z4y a.jewelButton:active ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -378px;
+    transform: scale(.9)
+}
+
+._1nxz._1z4y.openToggler a.jewelButton ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -352px
+}
+
+._1nxz ._1y2l .beeperNub {
+    right: 40px
+}
+
+._1nxz._1z4y._4962 .jewelCount {
+    right: 0;
+    top: 5px;
+    transform: translateZ(0)
+}
+
+._1nxz._1z4y._4962.openToggler a.jewelButton .jewelCount,._1nxz._1z4y._4962 a.jewelButton:active .jewelCount {
+    display: none
+}
+
+._6nw ._1z4y .uiHeader h3,._2cmy ._1z4y .uiHeader h3 {
+    font-size: 12px
+}
+
+._2cmy ._1z4y .messagesContent .time .timestamp {
+    color: #90949c;
+    font-size: 11px
+}
+
+._1sdi:hover {
+    color: #4b4f56;
+    text-decoration: none
+}
+
+._1sdi {
+    background-color: #fff;
+    color: #90949c;
+    font-weight: normal;
+    padding-right: 2px
+}
+
+._1sdd:hover,._1sdd {
+    color: #1d2129;
+    font-weight: 600;
+    padding-right: 0
+}
+
+._1sdj {
+    margin-left: 2px
+}
+
+._1y2l .uiHeaderTitle {
+    border-right: 4px solid transparent;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap
+}
+
+._1y2l .uiHeaderTitle:hover {
+    overflow: visible
+}
+
+._1y2l .uiHeaderActions,.uiHeaderTitle:hover ._481w,.uiHeaderTitle:hover ._1sdf {
+    position: relative;
+    z-index: 1
+}
+
+._1y2l li a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+._1y2l ._4qeb {
+    height: 48px;
+    margin-right: 12px;
+    overflow: hidden;
+    width: 48px
+}
+
+._1y2l ._4qeb>div {
+    margin: -1px
+}
+
+._1y2l ._4qeb>div:empty {
+    height: 48px !important;
+    margin: 0;
+    width: 48px !important
+}
+
+._1y2l .content {
+    display: block;
+    width: auto
+}
+
+._1y2l .author {
+    color: #365899;
+    padding-top: 7px;
+    white-space: nowrap
+}
+
+._1y2l .fixemoji {
+    font-family: Helvetica-Bold, 'Arial Bold', 'Apple Color Emoji', sans-serif;
+    font-weight: 400
+}
+
+._1y2l .author>strong:first-child,._1y2l .author>span:first-child {
+    display: inline-block;
+    max-width: 256px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: bottom;
+    white-space: nowrap
+}
+
+._1y2l span.presenceIndicator {
+    margin: 0 0 2px 8px;
+    vertical-align: bottom
+}
+
+._1y2l .groupThread,._1y2l .presenceActive,._1y2l .presenceMobile {
+    display: inline-block;
+    height: 11px;
+    margin-bottom: 1px
+}
+
+._1y2l .presenceActive {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: -6px -928px;
+    width: 8px
+}
+
+._1y2l .presenceMobile {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: -6px -904px;
+    width: 7px
+}
+
+._1y2l .groupThread {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: -14px 0;
+    height: 12px;
+    width: 13px
+}
+
+._1y2l .preview {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+._1y2l .time {
+    color: #90949c;
+    font-size: 9px
+}
+
+._1y2l .snippetThumbnail {
+    padding-top: 3px
+}
+
+._1y2l {
+    right: -31px
+}
+
+._1y2l .beeperNub {
+    right: 37px
+}
+
+._1y2l a.messagesContent {
+    color: #1d2129;
+    display: block;
+    padding: 4px 8px;
+    text-decoration: none
+}
+
+._1y2l .author,._1y2l a.messagesContent:hover .author,._1y2l a.messagesContent:hover .author span,._1y2l .subject,._1y2l a.messagesContent:hover .subject {
+    color: #1d2129
+}
+
+._1y2l .preview,._1y2l a.messagesContent:hover .preview {
+    color: #4b4f56;
+    padding-top: 1px
+}
+
+._1y2l .time .timestamp {
+    color: #90949c;
+    display: block;
+    font-size: 12px;
+    padding-top: 2px;
+    position: absolute;
+    right: 14px;
+    top: 20%
+}
+
+._1y2l .jewelContent li {
+    border-top: 0
+}
+
+._1y2l .jewelContent li:first-child a.messagesContent,._1y2l .jewelContent li:first-child a.messagesContent:hover,._1y2l .jewelContent li:first-child a.messagesContent:active,._1y2l .jewelContent li:first-child a.messagesContent:focus {
+    border-top: none
+}
+
+._1y2l .jewelContent a.messagesContent {
+    border-bottom: 1px solid #dddfe2;
+    border-top: 1px solid #dddfe2;
+    margin-bottom: -1px;
+    padding: 6px 30px 6px 12px;
+    position: relative
+}
+
+._1y2l .jewelContent a.messagesContent:hover,._1y2l .jewelContent a.messagesContent:active,._1y2l .jewelContent a.messagesContent:focus {
+    position: relative;
+    z-index: 1
+}
+
+._1y2l li.jewelItemNew a.messagesContent {
+    background-color: #edf2fa;
+    position: relative;
+    z-index: 2
+}
+
+._1y2l li a.messagesContent:focus,._1y2l li a.messagesContent:hover {
+    background-image: linear-gradient(rgba(29, 33, 41, .04), rgba(29, 33, 41, .04))
+}
+
+._1y2l ._v8y {
+    padding: 8px;
+    text-align: center
+}
+
+._14k_ {
+    background-color: #fff;
+    border-top: 1px solid #bec3c9;
+    bottom: 0;
+    text-align: left;
+    width: 100%;
+    z-index: 101
+}
+
+._14l2 {
+    color: #1d2129;
+    font-family: helvetica;
+    font-size: 12px;
+    font-weight: 600
+}
+
+._14l3 {
+    color: #1d2129;
+    font-family: helvetica;
+    font-size: 12px
+}
+
+._14l0 {
+    height: 50px;
+    margin: 8px 4px 8px 8px
+}
+
+._14l1 {
+    margin: 8px 4px 8px 4px
+}
+
+._14l4 {
+    line-height: 50px;
+    margin: 8px 4px 8px 4px
+}
+
+._14l5 {
+    margin: 8px 8px 8px 4px
+}
+
+._2q3u {
+    transition: height 100ms
+}
+
+._34zq .img {
+    margin-top: -2px;
+    vertical-align: middle
+}
+
+._481w,._1sdf {
+    display: inline-block
+}
+
+._4oci {
+    max-width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+._1iji {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start
+}
+
+._zjy {
+    flex: 1 1 auto;
+    float: right;
+    top: 50%
+}
+
+._1ijj {
+    flex: 1 1 auto;
+    overflow: hidden;
+    padding-right: 5px;
+    text-overflow: ellipsis
+}
+
+._3y6_ {
+    border-top: 1px solid #dddfe2
+}
+
+._80au {
+    padding: 8px 12px
+}
+
+._3y6_ ._1c1m,._3y6_ ._8st6 {
+    float: right
+}
+
+._el8 {
+    display: inline-block
+}
+
+._3v_l,._8st7 {
+    -webkit-overflow-scrolling: touch
+}
+
+._p32 {
+    margin-right: 12px
+}
+
+._8t_3 ._1sdi {
+    color: #385898
+}
+
+._8t_3 ._1sdi._1sdd {
+    color: #23272f
+}
+
+._8tmd {
+    color: rgba(153, 153, 153, 1);
+    font-size: 13px;
+    line-height: 15px;
+    margin-top: 5px;
+    padding: 2px 0;
+    text-align: center
+}
+
+._8tmd+.headerDivider {
+    margin-bottom: 0
+}
+
+._4xi1 .blueName {
+    color: #1d2129;
+    font-weight: bold
+}
+
+._4xi1 .staticAppIcon {
+    background-position: right;
+    height: 16px;
+    width: 16px
+}
+
+._4xi1 .selected .staticAppIcon {
+    background-position: left
+}
+
+._4xi1 .info {
+    max-width: 259px;
+    word-wrap: break-word
+}
+
+._4xi1 .notif_header {
+    padding-bottom: 1px
+}
+
+._4xi1 div.notif_x_div,._4xi1 div.confirmingMsg {
+    display: none
+}
+
+._4xi1 div.notif_x_div,._4xi1 div.confirmingMsg {
+    display: block
+}
+
+._4xi1 li a.notif_x {
+    display: block;
+    margin-left: 3px;
+    padding: 0
+}
+
+._4xi1 li a.notif_x .placeholder {
+    height: 40px;
+    margin: 3px 1px 0 0;
+    padding-left: 5px;
+    width: 11px
+}
+
+._4xi1 li .notif_x_div {
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    transition: margin-right 250ms;
+    z-index: 2
+}
+
+._4xi1 li.notifHover a.notif_x {
+    visibility: visible
+}
+
+._4xi1 a.notif_x {
+    margin-top: 0;
+    visibility: hidden
+}
+
+._4xi1 li div.info {
+    max-width: 243px;
+    overflow: hidden;
+    position: relative
+}
+
+._4xi1 li {
+    position: relative
+}
+
+._4xi1 a.notifMainLink {
+    border-bottom: solid 1px #e9e9e9;
+    border-top: solid 1px #e9e9e9;
+    color: #1d2129;
+    display: block;
+    margin-bottom: -1px;
+    padding: 7px 20px 7px 8px;
+    text-decoration: none;
+    z-index: 2;
+    zoom:1}
+
+._4xi1 li.notifHover a.notifMainLink {
+    background-color: #f5f6f7;
+    border-color: #ebedf0
+}
+
+._4xi1 li.notifHover {
+    position: relative;
+    z-index: 2
+}
+
+._4xi1 li.jewelItemNew a.notifMainLink {
+    background-color: #e9ebee;
+    border-bottom: 1px solid #d1d8e7;
+    border-top: 1px solid #d1d8e7
+}
+
+._4xi1 li.jewelItemNew:hover a.notifMainLink,._4xi1 li.fbJewelBeep:hover a.notifMainLink {
+    background-color: #e9ebee;
+    border-color: #c4d2e7
+}
+
+._4xi1 .beeperArea,._4xi1.hasBeeps .aggregatedNotifs {
+    display: none
+}
+
+._4xi1.hasBeeps .beeperArea {
+    display: block
+}
+
+._4xi2 ._4xi1 .jewelItemList li:first-child a.notifMainLink {
+    border-top: none
+}
+
+._2cmy ._4xi1 .uiHeader h3 {
+    font-size: 12px
+}
+
+._6nw ._4xi1 .uiHeader h3 {
+    font-size: 12px
+}
+
+._4xi1 {
+    right: 0
+}
+
+._4xi1 .info {
+    max-width: 373px
+}
+
+.highContrast ._4xi2 a.jewelButton ._2n_9:before {
+    content: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    margin: -482px 0 0 0;
+    position: absolute
+}
+
+.highContrast ._4xi2 a.jewelButton ._2n_9 {
+    overflow: hidden;
+    position: relative
+}
+
+._4xi2 a.jewelButton ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -482px;
+    opacity: .6
+}
+
+._4xi2 a.jewelButton:hover ._2n_9,._4xi2 a.jewelButton:focus ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -482px;
+    opacity: .8
+}
+
+._4xi2.hasNew a.jewelButton ._2n_9,._4xi2 a.jewelButton:active ._2n_9,._4xi2.openToggler a.jewelButton ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -508px;
+    opacity: 1
+}
+
+@media (-ms-high-contrast: black-on-white) {
+    ._4xi2 a.jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -482px;
+        opacity: .8
+    }
+
+    ._4xi2 a.jewelButton:hover ._2n_9,._4xi2 a.jewelButton:focus ._2n_9,._4xi2.hasNew a.jewelButton ._2n_9,._4xi2 a.jewelButton:active ._2n_9,._4xi2.openToggler a.jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -482px;
+        opacity: 1
+    }
+}
+
+@media (-ms-high-contrast: white-on-black) {
+    ._4xi2 a.jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -508px;
+        opacity: .8
+    }
+
+    ._4xi2 a.jewelButton:hover ._2n_9,._4xi2 a.jewelButton:focus ._2n_9,._4xi2.hasNew a.jewelButton ._2n_9,._4xi2 a.jewelButton:active ._2n_9,._4xi2.openToggler a.jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -508px;
+        opacity: 1
+    }
+}
+
+._3e0g._4xi2 a.jewelButton {
+    margin-top: 0
+}
+
+._3e0g._4xi2 a.jewelButton ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -508px
+}
+
+._3e0g._4962 .jewelCount {
+    top: 1px
+}
+
+._dyn._4xi2._4962 {
+    margin: 0 16px 0 0
+}
+
+._dyn._4xi2 a.jewelButton ._2n_9,._dyn._4xi2 a.jewelButton:hover ._2n_9,._dyn._4xi2 a.jewelButton:focus ._2n_9,._dyn._4xi2._5orl a.jewelButton ._2n_9,._dyn._4xi2._5orl a.jewelButton:hover ._2n_9,._dyn._4xi2._5orl a.jewelButton:focus ._2n_9,._dyn._4xi2._5orm a.jewelButton ._2n_9,._dyn._4xi2._5orm a.jewelButton:hover ._2n_9,._dyn._4xi2._5orm a.jewelButton:focus ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -170px;
+    background-clip: border-box;
+    height: 24px;
+    opacity: 1;
+    padding: 0;
+    transition-duration: 200ms;
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(.08,.52,.52,1);
+    width: 24px
+}
+
+._dyn._4xi2 a.jewelButton:active ._2n_9,._dyn._4xi2._5orl a.jewelButton:active ._2n_9,._dyn._4xi2._5orm a.jewelButton:active ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -144px;
+    transform: scale(.9)
+}
+
+._dyn._4xi2.hasNew a.jewelButton ._2n_9,._dyn._4xi2.hasNew a.jewelButton:hover ._2n_9,._dyn._4xi2.hasNew a.jewelButton:focus ._2n_9,._dyn._4xi2._5orl.hasNew a.jewelButton ._2n_9,._dyn._4xi2._5orl.hasNew a.jewelButton:hover ._2n_9,._dyn._4xi2._5orl.hasNew a.jewelButton:focus ._2n_9,._dyn._4xi2._5orm.hasNew a.jewelButton ._2n_9,._dyn._4xi2._5orm.hasNew a.jewelButton:hover ._2n_9,._dyn._4xi2._5orm.hasNew a.jewelButton:focus ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -274px
+}
+
+._dyn._4xi2.hasNew a.jewelButton:active ._2n_9,._dyn._4xi2._5orl.hasNew a.jewelButton:active ._2n_9,._dyn._4xi2._5orm.hasNew a.jewelButton:active ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -248px
+}
+
+._dyn._4xi2.openToggler a.jewelButton ._2n_9,._dyn._4xi2._5orl.openToggler a.jewelButton ._2n_9,._dyn._4xi2._5orm.openToggler a.jewelButton ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -118px
+}
+
+._dyn._4xi2 a.jewelButton,._dyn._4xi2._5orl a.jewelButton,._dyn._4xi2._5orm a.jewelButton,._dyn._4xi2 a.jewelButton:hover,._dyn._4xi2 a.jewelButton:focus,._dyn._4xi2._5orl a.jewelButton:hover,._dyn._4xi2._5orl a.jewelButton:focus,._dyn._4xi2._5orm a.jewelButton:hover,._dyn._4xi2._5orm a.jewelButton:focus {
+    margin-top: 0;
+    padding: 10px 8px
+}
+
+._dyn._4xi2 a.jewelButton:hover,._dyn._4xi2._5orl a.jewelButton:hover,._dyn._4xi2._5orm a.jewelButton:hover {
+    background-color: #f7f6f5
+}
+
+._dyn._4xi2 .beeperNub {
+    right: 9px
+}
+
+._dyn._4962 .jewelCount {
+    right: 0;
+    top: 5px;
+    transform: translateZ(0)
+}
+
+._dyn._4962.openToggler a.jewelButton .jewelCount,._dyn._4962 a.jewelButton:active .jewelCount {
+    display: none
+}
+
+._4xi2._5orm a.jewelButton ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -586px;
+    opacity: .6
+}
+
+._4xi2._5orm a.jewelButton:hover ._2n_9,._4xi2._5orm a.jewelButton:focus ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -586px;
+    opacity: .8
+}
+
+._4xi2._5orm.hasNew a.jewelButton ._2n_9,._4xi2._5orm a.jewelButton:active ._2n_9,._4xi2._5orm.openToggler a.jewelButton ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -612px;
+    opacity: 1
+}
+
+@media (-ms-high-contrast: black-on-white) {
+    ._4xi2._5orm a.jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -586px;
+        opacity: .8
+    }
+
+    ._4xi2._5orm a.jewelButton:hover ._2n_9,._4xi2._5orm a.jewelButton:focus ._2n_9,._4xi2._5orm.hasNew a.jewelButton ._2n_9,._4xi2._5orm a.jewelButton:active ._2n_9,._4xi2._5orm.openToggler a.jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -586px;
+        opacity: 1
+    }
+}
+
+@media (-ms-high-contrast: white-on-black) {
+    ._4xi2._5orm a.jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -612px;
+        opacity: .8
+    }
+
+    ._4xi2._5orm a.jewelButton:hover ._2n_9,._4xi2._5orm a.jewelButton:focus ._2n_9,._4xi2._5orm.hasNew a.jewelButton ._2n_9,._4xi2._5orm a.jewelButton:active ._2n_9,._4xi2._5orm.openToggler a.jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -612px;
+        opacity: 1
+    }
+}
+
+._3e0g._4xi2._5orm a.jewelButton ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -612px
+}
+
+._4xi2._5orl a.jewelButton ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -534px;
+    opacity: .6
+}
+
+._4xi2._5orl a.jewelButton:hover ._2n_9,._4xi2._5orl a.jewelButton:focus ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -534px;
+    opacity: .8
+}
+
+._4xi2._5orl.hasNew a.jewelButton ._2n_9,._4xi2._5orl a.jewelButton:active ._2n_9,._4xi2._5orl.openToggler a.jewelButton ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -560px;
+    opacity: 1
+}
+
+@media (-ms-high-contrast: black-on-white) {
+    ._4xi2._5orl a.jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -534px;
+        opacity: .8
+    }
+
+    ._4xi2._5orl a.jewelButton:hover ._2n_9,._4xi2._5orl a.jewelButton:focus ._2n_9,._4xi2._5orl.hasNew a.jewelButton ._2n_9,._4xi2._5orl a.jewelButton:active ._2n_9,._4xi2._5orl.openToggler a.jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -534px;
+        opacity: 1
+    }
+}
+
+@media (-ms-high-contrast: white-on-black) {
+    ._4xi2._5orl a.jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -560px;
+        opacity: .8
+    }
+
+    ._4xi2._5orl a.jewelButton:hover ._2n_9,._4xi2._5orl a.jewelButton:focus ._2n_9,._4xi2._5orl.hasNew a.jewelButton ._2n_9,._4xi2._5orl a.jewelButton:active ._2n_9,._4xi2._5orl.openToggler a.jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -560px;
+        opacity: 1
+    }
+}
+
+._3e0g._4xi2._5orl a.jewelButton ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -560px
+}
+
+._h2p ._4xi2 a.jewelButton ._2n_9,._h2p ._4xi2 a.jewelButton:hover ._2n_9,._h2p ._4xi2 a.jewelButton:focus ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -742px;
+    height: 24px;
+    width: 24px
+}
+
+._h2p._13l6 ._4xi2 a.jewelButton ._2n_9,._h2p._13l6 ._4xi2 a.jewelButton:hover ._2n_9,._h2p._13l6 ._4xi2 a.jewelButton:focus ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -946px
+}
+
+._h2p ._4xi2.hasNew a.jewelButton ._2n_9,._h2p ._4xi2 a.jewelButton:active ._2n_9,._h2p ._4xi2.openToggler a.jewelButton ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -768px
+}
+
+._h2p._13l6 ._4xi2.hasNew a.jewelButton ._2n_9,._h2p._13l6 ._4xi2 a.jewelButton:active ._2n_9,._h2p._13l6 ._4xi2.openToggler a.jewelButton ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -968px
+}
+
+@media (-ms-high-contrast: black-on-white) {
+    ._h2p ._4xi2 a.jewelButton ._2n_9,._h2p ._4xi2 a.jewelButton:hover ._2n_9,._h2p ._4xi2 a.jewelButton:focus ._2n_9,._h2p ._4xi2.hasNew a.jewelButton ._2n_9,._h2p ._4xi2 a.jewelButton:active ._2n_9,._h2p ._4xi2.openToggler a.jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -742px
+    }
+}
+
+@media (-ms-high-contrast: white-on-black) {
+    ._h2p ._4xi2 a.jewelButton ._2n_9,._h2p ._4xi2 a.jewelButton:hover ._2n_9,._h2p ._4xi2 a.jewelButton:focus ._2n_9,._h2p ._4xi2.hasNew a.jewelButton ._2n_9,._h2p ._4xi2 a.jewelButton:active ._2n_9,._h2p ._4xi2.openToggler a.jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -768px
+    }
+}
+
+._h2p ._4xi2 .jewelButton ._2n_9._vl0 {
+    margin-left: 2px;
+    margin-right: 3px
+}
+
+._h2p._13l6 ._4xi2 .jewelButton ._2n_9._vl0 {
+    margin-left: 2px;
+    margin-right: 3px
+}
+
+._h2p ._4xi2 a.jewelButton ._2n_9._vl0,._h2p ._4xi2 a.jewelButton:hover ._2n_9._vl0,._h2p ._4xi2 a.jewelButton:focus ._2n_9._vl0 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -66px
+}
+
+._h2p._13l6 ._4xi2 a.jewelButton ._2n_9._vl0,._h2p._13l6 ._4xi2 a.jewelButton:hover ._2n_9._vl0,._h2p._13l6 ._4xi2 a.jewelButton:focus ._2n_9._vl0 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -196px
+}
+
+._h2p ._4xi2.hasNew a.jewelButton ._2n_9._vl0,._h2p ._4xi2 a.jewelButton:active ._2n_9._vl0,._h2p ._4xi2.openToggler a.jewelButton ._2n_9._vl0 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -92px
+}
+
+._h2p._13l6 ._4xi2.hasNew a.jewelButton ._2n_9._vl0,._h2p._13l6 ._4xi2 a.jewelButton:active ._2n_9._vl0,._h2p._13l6 ._4xi2.openToggler a.jewelButton ._2n_9._vl0 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -222px
+}
+
+._4xi2 .beeperNub {
+    right: 5px
+}
+
+._3nzk {
+    right: -62px
+}
+
+._6nw ._3nzk .requestStatusBlock .title,._6nw ._3nzk .friendBrowserListUnit .title,._6nw ._3nzk .uiHeader h3 {
+    font-size: 12px
+}
+
+._3nzk .title {
+    font-size: 12px
+}
+
+._3nzk .requestsUnitTitle .titleBannerText {
+    color: #606770;
+    font-size: 11px;
+    font-weight: normal;
+    margin-top: 3px
+}
+
+._3nzk .addButtonWrapper .FriendListMenu .objectListItem {
+    overflow: hidden;
+    padding: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+._3nzk .jewelItemList {
+    padding: 0
+}
+
+._3nzk .friendConfirmedNotifsUnitDisaggregated {
+    border-bottom: 0;
+    padding: 0
+}
+
+._3nzk .uiScrollableArea .objectListItem,._3nzk .uiScrollableArea .friendBrowserListUnit {
+    padding: 4px 8px
+}
+
+._3nzk .uiList.uiList.uiList.uiList>.objectListItem,._3nzk .uiList.uiList.uiList.uiList>.friendBrowserListUnit {
+    padding: 6px 12px
+}
+
+._3nzk .uiList.uiList.uiList.uiList>.objectListItem>.clearfix>a>img {
+    height: 48px;
+    margin-right: 2px;
+    margin-top: 1px;
+    width: 48px
+}
+
+._3nzk .uiList.uiList.uiList.uiList>.objectListItem>.clearfix>div {
+    margin: -1px 0
+}
+
+._3nzk .jewelHighlight .objectListItem {
+    padding: 0
+}
+
+._3nzk .jewelHighlight .title {
+    color: #365899
+}
+
+._3nzk .jewelHighlight .mutualFriends {
+    color: #90949c
+}
+
+._3nzk .jewelHighlight a:hover .title,._3nzk .jewelHighlight a:focus .title,._3nzk .jewelHighlight a:active .title,._3nzk .jewelHighlight a:hover .mutualFriends,._3nzk .jewelHighlight a:focus .mutualFriends,._3nzk .jewelHighlight a:active .mutualFriends {
+    color: #fff
+}
+
+._3nzk .requestLabel {
+    line-height: 12px
+}
+
+._3nzk .jewelFooter .seeMoreCount {
+    display: block
+}
+
+._3nzk .fbRequestList {
+    padding-top: 4px
+}
+
+._3nzk .fbMoreRequestList {
+    border-top: 1px solid #e9ebee;
+    padding: 0
+}
+
+._3nzk .friendBrowserExtraSpacing {
+    margin: 0
+}
+
+._3nzk .friendBrowserCheckboxContentGrid {
+    padding-top: 0
+}
+
+._3nzk .jewelHeader {
+    padding-right: 10px;
+    position: relative;
+    text-align: left
+}
+
+._3nzk .objectListItem {
+    border-top: 1px solid #dddfe2
+}
+
+._3nzk .jewelItemNew {
+    background-color: #edf2fa
+}
+
+._3nzk .fbRequestList,._3nzk ._3nzp {
+    -webkit-overflow-scrolling: touch;
+    padding-top: 0
+}
+
+._3nzk .fbRequestList .objectListItem:first-child,._3nzk ._3nzp .objectListItem:first-child {
+    border-top: none
+}
+
+._3nzk .uiScrollableAreaContent {
+    padding-bottom: 0
+}
+
+._3nzk ._3nzq ul:first-child {
+    padding-top: 0
+}
+
+._3nzk ._3nzq ul .friendBrowserListUnit {
+    border-bottom: 1px solid #dddfe2;
+    border-top: 0
+}
+
+._3nzk #fbRequestsPYMLContainer {
+    border-top: 1px solid #dddfe2
+}
+
+._3nzk #fbRequestsPYMLContainer .seeMoreBox {
+    margin: 8px;
+    text-align: center
+}
+
+._3nzk #fbRequestsPYMLContainer #fbSuggestionsPYMLContainer .blockLoaded {
+    border-bottom: 1px solid #dddfe2
+}
+
+._3nzk .fbRequestList .listGray {
+    background-color: #f5f6f7
+}
+
+._3nzk .fbRequestList .noRequestsGrid {
+    height: 48px;
+    width: 100%
+}
+
+._2cmy ._3nzk .requestStatusBlock .title,._2cmy ._3nzk .friendBrowserListUnit .title,._2cmy ._3nzk .uiHeader h3 {
+    font-size: 12px
+}
+
+._3nzl ._3nzk .hasPYMK,._3nzl ._3nzk .friendConfirmedNotifsUnitDisaggregated,._3nzl ._3nzk .friendConfirmedNotifsUnitAggregated {
+    border-bottom: 1px solid #dddfe2
+}
+
+._3nzk .profileScaledImage {
+    height: 50px;
+    width: 25px
+}
+
+._3nzl .xoutNotifsUnitButton {
+    padding: 0 10px 0 0;
+    position: absolute;
+    right: 0
+}
+
+._3nzl .friendConfirmedNotifsUnitAggregated>a>.pas,._3nzl .friendConfirmedNotifsUnitDisaggregated>a>.pas {
+    padding: 6px 12px
+}
+
+._3nzl .friendConfirmedNotifsUnitAggregated .pas>table {
+    display: block;
+    height: 48px;
+    margin: 1px 12px 0 0;
+    width: 48px
+}
+
+._3nzl .friendConfirmedNotifsUnitDisaggregated .pas>table {
+    display: block;
+    height: 48px;
+    margin: 1px 12px 0 0;
+    overflow: hidden;
+    width: 48px
+}
+
+._3nzl .friendConfirmedNotifsUnitAggregated .pas>table>tbody,._3nzl .friendConfirmedNotifsUnitDisaggregated .pas>table>tbody {
+    display: block;
+    margin: -1px
+}
+
+._3nzl .friendConfirmedNotifsUnitAggregated .uiIconText,._3nzl .friendConfirmedNotifsUnitDisaggregated .uiIconText {
+    margin-top: 2px
+}
+
+.highContrast ._3nzl a.jewelButton ._2n_9:before {
+    content: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    margin: -430px 0 0 0;
+    position: absolute
+}
+
+.highContrast ._3nzl a.jewelButton ._2n_9 {
+    overflow: hidden;
+    position: relative
+}
+
+._3nzl a.jewelButton ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -430px;
+    opacity: .6
+}
+
+._3nzl a.jewelButton:hover ._2n_9,._3nzl a.jewelButton:focus ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -430px;
+    opacity: .8
+}
+
+._3nzl.hasNew a.jewelButton ._2n_9,._3nzl a.jewelButton:active ._2n_9,._3nzl.openToggler a.jewelButton ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -456px;
+    opacity: 1
+}
+
+@media (-ms-high-contrast: black-on-white) {
+    ._3nzl a.jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -430px;
+        opacity: .8
+    }
+
+    ._3nzl a.jewelButton:hover ._2n_9,._3nzl a.jewelButton:focus ._2n_9,._3nzl.hasNew a.jewelButton ._2n_9,._3nzl a.jewelButton:active ._2n_9,._3nzl.openToggler a.jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -430px;
+        opacity: 1
+    }
+}
+
+@media (-ms-high-contrast: white-on-black) {
+    ._3nzl a.jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -456px;
+        opacity: .8
+    }
+
+    ._3nzl a.jewelButton:hover ._2n_9,._3nzl a.jewelButton:focus ._2n_9,._3nzl.hasNew a.jewelButton ._2n_9,._3nzl a.jewelButton:active ._2n_9,._3nzl.openToggler a.jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -456px;
+        opacity: 1
+    }
+}
+
+._h2p ._3nzl .jewelButton ._2n_9,._h2p ._3nzl .jewelButton:hover ._2n_9,._h2p ._3nzl .jewelButton:focus ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -794px;
+    height: 24px;
+    width: 24px
+}
+
+._h2p ._3nzl.hasNew .jewelButton ._2n_9,._h2p ._3nzl .jewelButton:active ._2n_9,._h2p ._3nzl.openToggler .jewelButton ._2n_9 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -820px
+}
+
+@media (-ms-high-contrast: black-on-white) {
+    ._h2p ._3nzl .jewelButton ._2n_9,._h2p ._3nzl .jewelButton:hover ._2n_9,._h2p ._3nzl .jewelButton:focus ._2n_9,._h2p ._3nzl.hasNew .jewelButton ._2n_9,._h2p ._3nzl .jewelButton:active ._2n_9,._h2p ._3nzl.openToggler .jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -794px
+    }
+}
+
+@media (-ms-high-contrast: white-on-black) {
+    ._h2p ._3nzl .jewelButton ._2n_9,._h2p ._3nzl .jewelButton:hover ._2n_9,._h2p ._3nzl .jewelButton:focus ._2n_9,._h2p ._3nzl.hasNew .jewelButton ._2n_9,._h2p ._3nzl .jewelButton:active ._2n_9,._h2p ._3nzl.openToggler .jewelButton ._2n_9 {
+        background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+        background-repeat: no-repeat;
+        background-size: 28px 1022px;
+        background-position: 0 -820px
+    }
+}
+
+._h2p ._3nzl .jewelButton ._2n_9._vl0 {
+    margin-right: 6px
+}
+
+._h2p ._3nzl .jewelButton ._2n_9._vl0,._h2p ._3nzl .jewelButton:hover ._2n_9._vl0,._h2p ._3nzl .jewelButton:focus ._2n_9._vl0 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -300px
+}
+
+._h2p ._3nzl.hasNew .jewelButton ._2n_9._vl0,._h2p ._3nzl .jewelButton:active ._2n_9._vl0,._h2p ._3nzl.openToggler .jewelButton ._2n_9._vl0 {
+    background-image: url(/rsrc.php/v3/y4/r/uVvHzo8O7j6.png);
+    background-repeat: no-repeat;
+    background-size: 28px 1022px;
+    background-position: 0 -326px
+}
+
+._3nzl .beeperNub {
+    right: 69px
+}
+
+._3nzl .friendBrowserMorePager {
+    padding: 6px 0
+}
+
+._3nzl .friendBrowserMorePager .topborder {
+    border: 0;
+    padding: 0
+}
+
+._3nzl .uiScrollableArea {
+    transition: height 100ms
+}
+
+._3nzk .requestsUnitTitle.jewelHeader,._3nzk .friendConfirmedNotifsUnitTitle.jewelHeader,._3nzk ._3nzq .jewelHeader {
+    z-index: 1
+}
+
+#facebook ._3nzk .uiContextualLayerPositioner {
+    display: block !important
+}
+
+._55fl {
+    background: #e9ebee;
+    border-left: 1px solid #cbcbcb;
+    box-shadow: 1px 0 0 #f0f0f2 inset;
+    display: none;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 205px;
+    z-index: 300
+}
+
+.sidebarMode ._55fl {
+    display: block
+}
+
+.FriendListMenu {
+    overflow: hidden;
+    padding-bottom: 0
+}
+
+.NonFriendSubscriptionMenu .FriendListActionMenu {
+    padding-bottom: 0;
+    padding-top: 0
+}
+
+.async_saving .FriendListCancel,.async_saving .FriendListUnfriend,.async_saving .FriendListActionSeparator,.async_saving .FriendListScroller,.async_saving .FriendListMenu,.async_saving .FriendListSubscribeSubmenu,.async_saving .FriendListSubscriptionsMenu {
+    display: none
+}
+
+.FriendListCFMenu .itemLabel,.FriendListMenu .itemLabel {
+    overflow: hidden
+}
+
+.FriendListMenu .FriendListItem .name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.FriendListMenu .FriendListItem .icon {
+    float: right;
+    margin: 3px 0 0 4px
+}
+
+.uiScrollableArea ul.FriendListMenu {
+    margin-right: 5px
+}
+
+.FriendListMenu .FriendListCreateItem {
+    position: relative
+}
+
+.CreateListInputItem,.FriendListCreateTrigger {
+    position: relative;
+    zoom:1}
+
+div.FriendListMenuCreate li.FriendListCreateTrigger,.FriendListMenu .CreateListInputItem {
+    display: none
+}
+
+div.FriendListMenuCreate .CreateListInputItem {
+    display: block;
+    padding: 1px 16px 1px 22px
+}
+
+.FriendListMenu .createListInput {
+    outline: none;
+    padding: 1px 2px 2px 2px;
+    width: 100px
+}
+
+.async_saving .FriendListActionMenu {
+    display: none
+}
+
+.FriendListCancel {
+    position: relative
+}
+
+.FriendListCancel .uiLoadingIndicatorAsync {
+    position: absolute;
+    top: 4px
+}
+
+.FriendListMenu .underShowMore,.FriendListMenu .ShowMoreItem,.FriendListActionMenu .PageMenuUnlike,div.FriendListMenuShowMore li.ShowMoreItem {
+    display: none
+}
+
+div.FriendListMenuShowMore .underShowMore,div.hasMoreFriendListItems .ShowMoreItem {
+    display: block
+}
+
+.FlyoutFriendMenu {
+    max-width: 300px;
+    min-width: 192px
+}
+
+.FlyoutFriendMenu .uiScrollableAreaWrap {
+    max-height: 266px
+}
+
+.FlyoutFriendMenu .uiScrollableAreaTrack {
+    right: 15px
+}
+
+.FlyoutFriendMenu .uiScrollableArea.contentAfter:after {
+    background-color: transparent
+}
+
+.FriendListMemorializedUser li,.FriendListMemorializedUser li.uiMenuItem {
+    display: none
+}
+
+.FriendListMemorializedUser li.FriendListUnfriend {
+    display: list-item
+}
+
+.NoFriendListActionSeparator .FriendListActionSeparator {
+    display: none
+}
+
+#bootloader_jzGxA {
+    height: 42px;
+}
+
+.bootloader_jzGxA {
+    display: block!important;
+}
