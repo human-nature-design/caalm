@@ -105,11 +105,21 @@ NAVIGATION
 #nav-xshop-container
 {display: none !important;}
 
-/*Search*/
+/*=====+++++
 
+SEARCH
+===========*/
+
+/*
 #nav-search {
-  margin-left: 15%;
+  margin-left: 15%!important
+}
+*/
 
+#navbar[data-template=layoutSwapToolBar].layout2 #nav-search {
+    padding-top: 10px;
+    padding-left: 50px!important;
+    height: 60px;
 }
 
 #nav-main
