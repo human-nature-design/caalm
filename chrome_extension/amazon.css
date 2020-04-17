@@ -1,13 +1,15 @@
 
 /* Color variables
 https://www.w3schools.com/css/css3_variables.asp
+
+Generator: https://coolors.co/4b4e50-f29b9d-f47b91-fbf8cb-99b59a
 */
 
 :root, .colors {
-    --green:  #46D28F;
-    --green-dark:  #3bb57b;
-    --yellow: #D2B82E;
-    --yellow-dark: #a68123;
+    --green:  #99B59A;
+    --green-dark:  #556455;
+    --yellow: #E6C893;
+    --yellow-dark: #93805E;
 }
 
 
@@ -129,8 +131,22 @@ BUTTONS
 NAVIGATION
 -----------*/
 
-#nav-logo
-{display: none !important;}
+#nav-logo{
+margin-left: 100px;
+}
+
+/* Got us close
+.nav-sprite-v1 .nav-sprite, .nav-sprite-v1 .nav-icon
+*/
+
+span.nav-sprite.nav-logo-base
+{
+  background-image: url(https://uploads-ssl.webflow.com/5e6c7fe65212509242144a0d/5e994b6bd0f2eb57820a25ed_amazon_logo.svg)!important;
+  background-repeat: no-repeat!important;
+  background-position: 0 0!important;
+  background-size: 25px!important;
+  opacity: 1;
+}
 
 #nav-hamburger-menu
 {display: none !important;}
@@ -151,7 +167,6 @@ SEARCH
 
 #navbar[data-template=layoutSwapToolBar].layout2 #nav-search {
     padding-top: 10px;
-    padding-left: 50px!important;
     height: 60px;
 }
 
