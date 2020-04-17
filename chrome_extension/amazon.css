@@ -10,6 +10,39 @@ https://www.w3schools.com/css/css3_variables.asp
     --yellow-dark: #a68123;
 }
 
+
+
+/*font */
+/* guide: https://stackoverflow.com/questions/24990554/how-to-include-a-font-ttf-using-css */
+
+/* Import doesn't work?
+@import url(//fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;700&display=swap);
+*/
+
+/*font face locally referenced
+
+@font-face {
+    font-family: "baloo";
+    src: url('http://professionalhospital.ipage.com/caalm/fonts/baloo_r.ttf') format("ttf");
+}
+
+
+/*HTML fonts
+
+
+body{
+  font-family: 'baloo'!important, monospace!important;
+}
+
+.a-ember body {
+    font-family: 'baloo'!important, monospace!important;
+}
+
+.a-ember .a-text-quote {
+    font-family: 'baloo'!important,monospace!important;
+}
+
+
 /*Some local change here */
 
 
@@ -105,11 +138,21 @@ NAVIGATION
 #nav-xshop-container
 {display: none !important;}
 
-/*Search*/
+/*=====+++++
 
+SEARCH
+===========*/
+
+/*
 #nav-search {
-  margin-left: 15%;
+  margin-left: 15%!important
+}
+*/
 
+#navbar[data-template=layoutSwapToolBar].layout2 #nav-search {
+    padding-top: 10px;
+    padding-left: 50px!important;
+    height: 60px;
 }
 
 #nav-main
@@ -213,10 +256,26 @@ a#nav-hamburger-menu {
     border-radius: 0px;
 }
 
-/* My name */
-.nav-line-1
-  {display:none!important;}
+/*Disclaimer on size and color*/
+[cel_widget_id~=MAIN-TOP_BANNER_MESSAGE]
+{display: none!important;}
 
+/*Number of results and being able to sort by feature*/
+[data-component-type~=s-result-info-bar]
+{display: none!important;}
+
+/* Product price fraction*/
+.a-price-fraction
+{display: none!important;}
+
+/* My name and returns */
+/*.nav-line-1
+  {display:none!important;}
+*/
+
+/*Cart nav flyout*/
+#nav-flyout-ewc
+{display: none!important;}
 
 #nav-subnav
   {display:none!important;}
@@ -326,8 +385,9 @@ https://en.wikibooks.org/wiki/JavaScript/Removing_elements
 {display:none!important;}
 
 /* doesn't work for ad id some reason below*/
-#ad
-{display:none!important;}
+#ad .creative-container{
+  display:none!important;
+}
 
 
 [data-component-type~=s-skyscraper-slot]
@@ -360,10 +420,16 @@ https://en.wikibooks.org/wiki/JavaScript/Removing_elements
   display:none!important;
 }
 
+/*Ad in the footer, look at #ad for the trouble I've had*/
+.amzn-safe-frame-container
+  {display:none!important;}
+
 .amzn-safe-frame-footer
-{
-  display:none!important;
-}
+  {display:none!important;}
+
+/*Help Footer*/
+[cel_widget_id~=MAIN-FEEDBACK]
+  {display:none!important;}
 
 /* Not working to pull out the amazon choice label globally*/
 #B007WQ9YNO-amazons-choice-label
@@ -382,7 +448,6 @@ https://en.wikibooks.org/wiki/JavaScript/Removing_elements
 [data-a-badge-type=status] .a-badge-label {
     max-width: 200px;
     background-color: #232F3E;
-    color: #232F3E;
     padding: 0 6px 0 10px;
 }
 
@@ -390,6 +455,14 @@ https://en.wikibooks.org/wiki/JavaScript/Removing_elements
 {
     display:none!important;
 }
+
+/* ============
+PRODUCT RESULTS
+===============
+*/
+
+.a-size-base.a-color-secondary
+{display:none!important;}
 
 /* Icon deal */
 
@@ -413,6 +486,9 @@ https://en.wikibooks.org/wiki/JavaScript/Removing_elements
 /*Amazone choice, best seller, etc. Will want to watch out where this impacts and could limit scope to the search results page */
 .a-badge
   {display:none!important;}
+
+
+
 
 
 

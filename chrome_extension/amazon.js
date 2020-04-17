@@ -9,15 +9,22 @@ for(var i=0; i<sponsored_count; i++){
 }
 
 
-// Remove product ads by the href rather than element // IDEA:
-// Get element by href https://stackoverflow.com/questions/10572735/javascript-getelement-by-href
-// querySelector using wildcard: https://stackoverflow.com/questions/8714090/queryselector-wildcard-element-match
 
-// Finds all ads that are served up through amazon adsystems URL
-// Still a WIP
 
-//var product_ad_count = document.querySelectorAll("a[href*='amazon-adsystem']").length
 
-//for(var i=0; i<product_ad_count; i++){
 
-//  document.querySelector("a[href*='amazon-adsystem']").parentNode.remove();}
+// Remove product ads
+
+// Top product ad
+document.querySelector("a[href*='amazon-adsystem']").parentNode.parentNode.remove();
+
+//Bottom product ads
+document.querySelector("a[href*='amazon-adsystem']").parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.remove()
+
+// Prime, Kindle, and other Amazon content in search
+const amazon_spon_count = document.getElementsByClassName("a-size-base a-link-normal a-text-bold").length
+
+for(var i=0; i<amazon_spon_count; i++){
+
+  document.querySelector(".a-size-base.a-link-normal.a-text-bold").parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.remove();
+}
