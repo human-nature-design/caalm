@@ -22,17 +22,11 @@ A browser extension that removes ads, dark patterns, and manipulative UI from ma
 
 ## Install
 
-### Chrome
 1. Clone this repo
 2. Go to `chrome://extensions/`
 3. Enable **Developer mode** (top right)
 4. Click **Load unpacked** → select the `chrome_extension/` folder
 
-### Firefox
-1. Go to `about:debugging#/runtime/this-firefox`
-2. Click **Load Temporary Add-on** → select `firefox-ext/manifest.json`
-
-> Note: Firefox extension currently only supports Amazon.
 
 ## Project Structure
 
