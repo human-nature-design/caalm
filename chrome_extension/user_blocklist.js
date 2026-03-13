@@ -3,6 +3,7 @@
 
 (function () {
   function applyBlockRules() {
+    try { chrome.runtime.id; } catch (e) { return; } // extension context invalidated
     chrome.storage.local.get({ caalmBlocklist: [] }, (data) => {
       const domain = window.location.hostname;
       const rules = data.caalmBlocklist.filter(

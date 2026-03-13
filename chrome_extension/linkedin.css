@@ -53,3 +53,8 @@ div[data-job],
 div[data-view-name="grow-your-network"] {
   display: none !important;
 }
+
+/* ── Footer ── */
+footer.global-footer-compact {
+  display: none !important;
+}
