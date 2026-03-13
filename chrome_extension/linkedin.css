@@ -23,3 +23,33 @@ button[aria-label*="Try Premium"] {
 .games-onboarding-card {
   display: none !important;
 }
+
+/* ── Jobs removal ── */
+
+/* "Jobs" tab in the top nav bar */
+a[href*="/jobs"],
+li.global-nav__primary-item a[href*="/jobs"] {
+  display: none !important;
+}
+
+/* Job search promo cards ("Job search smarter", etc.) */
+.jobs-home-upsell,
+.job-card-container,
+.jobs-upsell-card,
+div[data-view-name="jobs-home-upsell"] {
+  display: none !important;
+}
+
+/* "Claim offer now" / Premium job upsells */
+a[href*="premium/products/jobs"],
+a[href*="premium"][href*="job"] {
+  display: none !important;
+}
+
+/* Job/growth promo containers (fallback for JS) */
+div[data-job],
+.jobs-home-vertical-list,
+.mn-abi-form,
+div[data-view-name="grow-your-network"] {
+  display: none !important;
+}
