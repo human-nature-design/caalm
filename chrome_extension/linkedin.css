@@ -1,0 +1,25 @@
+/* LinkedIn - caalm web
+   Hide ads, news sidebar, and manipulative UI.
+   Promoted posts are handled by linkedin.js to avoid hiding real content. */
+
+/* LinkedIn News sidebar */
+.news-module {
+  display: none !important;
+}
+
+/* Ad sidebar units */
+.ad-banner-container,
+.scaffold-layout__ad {
+  display: none !important;
+}
+
+/* "Try Premium" nudges */
+a[href*="premium/products"],
+button[aria-label*="Try Premium"] {
+  display: none !important;
+}
+
+/* Games / puzzles promo */
+.games-onboarding-card {
+  display: none !important;
+}
